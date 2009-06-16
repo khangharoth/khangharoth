@@ -1,0 +1,278 @@
+<project name="HelloWorld" default="deploy" basedir=".">
+	<!--Name of Project and Version -->
+	<property name="proj.name" value="QuarksFramework" />
+	<property name="proj.version" value="1.0" />
+	<!--Global Properties for this build   -->
+	<property name="artifacts.dir" value="artifacts" />
+	<property name="build.dir" value="build" />
+	<property name="src.java.dir" value="src" />
+	<property name="test.java.dir" value="test-bucket" />
+	<property name="src.classes.dir" value="${build.dir}/classes" />
+	<property name="etc.dir" value="etc" />
+	<property name="config" value="config" />
+	<property name="lib.dir" value="lib" />
+	<property name="testlib.dir" value="testBucket/lib" />
+	<property name="server.dir" value="C:\software\servers\apache-tomcat-6.0.18" />
+	<property name="deploy.dir" value="${server.dir}/webapps" />
+	<property name="war.dir" value="war" />
+	<property name="war.name" value="QuarkFramework.war" />
+
+	<!--
+	<property name="test.lib.dir" value="C:\workspace\lib\lib" />
+       -->
+	<property name="instrumented.dir" value="${artifacts.dir}/cobertur" />
+
+	<property name="javadoc.dir" location="${artifacts.dir}/javadoc" />
+	<!-- Class Path Decl -->
+	<path id="project.classpath">
+		<fileset dir="${lib.dir}">
+			<include name="**/*.jar" />
+		</fileset>
+		<fileset dir="${testlib.dir}">
+					<include name="**/*.jar" />
+		</fileset>
+	</path>
+	<path id="test.classpath">
+		<fileset dir="${test.lib.dir}">
+			<include name="**/*.jar" />
+		</fileset>
+		<path refid="project.classpath" />
+		<pathelement location="${src.classes.dir}" />
+		<fileset dir="${config}">
+			<patternset refid="meta.files" />
+		</fileset>
+	</path>
+	<property name="cobertura.dir" value="C:/software/openSourceFramworks/cobertura-1.9.1" />
+	<path id="cobertura.classpath">
+		<fileset dir="${cobertura.dir}">
+			<include name="cobertura.jar" />
+			<include name="lib/**/*.jar" />
+		</fileset>
+	</path>
+	<!-- Meta Files  -->
+	<patternset id="meta.files">
+		<include name="**/*.xml" />
+		<include name="**/*.properties" />
+	</patternset>
+	<target name="cleanUp">
+		<delete dir="${build.dir}" />
+		<delete dir="${artifacts.dir}" />
+	</target>
+
+	<!-- ================================= 
+          target: compile              
+         ================================= -->
+	<target name="init" depends="cleanUp" description="init">
+		<mkdir dir="${artifacts.dir}" />
+		<mkdir dir="${build.dir}" />
+		<mkdir dir="${src.classes.dir}" />
+		<mkdir dir="${src.classes.dir}/META-INF" />
+		<mkdir dir="war" />
+		<mkdir dir="${test.classes.dir}" />
+		<mkdir dir="${artifacts.dir}/findbugs" />
+	</target>
+	<!-- ================================= 
+          target: compile              
+         ================================= -->
+	<taskdef
+		resource="org/aspectj/tools/ant/taskdefs/aspectjTaskdefs.properties"
+		classpathref="project.classpath" />
+	<target name="compile" depends="init" description="Compile Java Source">
+		<iajc
+				fork="true"
+				forkclasspathref="project.classpath"
+				maxmem="256m"
+				source="1.5"
+				srcdir="${src.java.dir}"
+				destdir="${src.classes.dir}">
+
+				<classpath refid="project.classpath" />
+			</iajc>
+		<!--
+		<javac srcdir="${src.java.dir}" destdir="${src.classes.dir}">
+			<classpath refid="project.classpath" />
+		</javac>
+		-->
+	</target>
+	<target name="compileTest" depends="compile" description="Compile Tests">
+		<javac srcdir="${test.java.dir}" destdir="${src.classes.dir}">
+			<classpath refid="test.classpath" />
+		</javac>
+	</target>
+	<!-- - - - - - - - - - - - - - - - - - 
+          target: copymetafiles                      
+         - - - - - - - - - - - - - - - - - -->
+	<target name="copymetafiles">
+		<copy todir="${src.classes.dir}/META-INF">
+			<fileset dir="${etc.dir}">
+				<patternset refid="meta.files" />
+			</fileset>
+		</copy>
+	</target>
+	<!-- ================================= 
+          target: run              
+         ================================= -->
+	<target name="run" depends="compile,copymetafiles" description="Build and Run HelloWorld">
+		<java fork="true" classname="hello.HelloWorld" classpathref="project.classpath">
+			<classpath path="${build.dir}" />
+		</java>
+	</target>
+	<taskdef name="hibernatetool" classname="org.hibernate.tool.ant.HibernateToolTask" classpathref="project.classpath" />
+	<!-- ================================= 
+          target: schemaExport              
+         ================================= -->
+	<target name="schemaExport" depends="compile,copymetafiles" description="Exports a generated schema">
+		<hibernatetool destdir="${basedir}">
+			<classpath path="${build.dir}" />
+			<jpaconfiguration persistenceunit="helloPersistence" />
+			<hbm2ddl drop="true" create="true" export="true" outputfilename="helloworld-ddl.sql" delimiter=";" format="true" />
+		</hibernatetool>
+	</target>
+
+
+
+
+	<!--All Other Build related Targets                   -->
+
+
+
+	<!-- ================================= 
+	          target: testNg Test's            
+	         ================================= -->
+
+	<taskdef resource="testngtasks" classpathref="project.classpath" />
+	<!-- ================================= 
+          target: name              
+         ================================= -->
+	<target name="testngTests" depends="compileTest,copymetafiles" description="description">
+		<testng outputDir="${artifacts.dir}/testNgReports" haltOnFailure="true" verbose="2">
+			<classpath refid="test.classpath" />
+			<xmlfileset dir="${test.java.dir}" includes="testng.xml" />
+		</testng>
+		<antcall target="test-reports">
+		</antcall>
+	</target>
+	<target name="testngTestsInstrumented" depends="instrument,copymetafiles" description="description">
+		<testng outputDir="${artifacts.dir}/testNgReports" haltOnFailure="true" verbose="2">
+			<sysproperty key="net.sourceforge.cobertura.datafile" file="cobertura.ser" />
+			<classpath location="${instrumented.dir}" />
+			<classpath refid="test.classpath" />
+			<classpath refid="cobertura.classpath" />
+			<xmlfileset dir="${test.java.dir}" includes="testng.xml" />
+		</testng>
+		<antcall target="test-reports" />
+		<cobertura-report format="html" datafile="cobertura.ser" destdir="${artifacts.dir}" srcdir="${src.dir}" />
+	</target>
+	<target name="test-reports">
+		<junitreport todir="${artifacts.dir}/testNgReports">
+			<fileset dir="${artifacts.dir}/testNgReports">
+				<include name="*/*.xml" />
+			</fileset>
+
+			<report format="noframes" todir="${artifacts.dir}/testNgReports" />
+		</junitreport>
+	</target>
+
+	<!-- ================================= 
+	          target: find Bugs            
+	         ================================= -->
+	<!--
+	<property name="findbugs.home" value="${test.lib.dir}/testLibs/findbugs" />
+
+	<taskdef name="findbugs" classname="edu.umd.cs.findbugs.anttask.FindBugsTask" classpathref="test.classpath" />
+
+	<target name="findbugs" depends="testngTests">
+		<findbugs home="${findbugs.home}" output="xml" outputFile="${artifacts.dir}/findbugs/findbugs.xml">
+
+			<classpath refid="test.classpath" />
+			<sourcePath path="${src.java.dir}" />
+			<class location="${src.classes.dir}" />
+		</findbugs>
+	</target>
+
+-->
+	<!-- ================================= 
+	          target: Code Coverage            
+	         ================================= -->
+
+
+
+	<taskdef classpathref="cobertura.classpath" resource="tasks.properties" />
+	<target name="instrument" depends="compileTest">
+		<!--
+				Remove the coverage data file and any old instrumentation.
+			-->
+		<delete file="cobertura.ser" />
+		<delete dir="${instrumented.dir}" />
+
+		<!--
+				Instrument the application classes, writing the
+				instrumented classes into ${build.instrumented.dir}.
+			-->
+		<cobertura-instrument todir="${instrumented.dir}">
+			<!--
+					The following line causes instrument to ignore any
+					source line containing a reference to log4j, for the
+					purposes of coverage reporting.
+				-->
+			<ignore regex="org.apache.log4j.*" />
+
+			<fileset dir="${src.classes.dir}">
+				<!--
+						Instrument all the application classes, but
+						don't instrument the test classes.
+					-->
+				<include name="**/*.class" />
+				<exclude name="**/*Test.class" />
+			</fileset>
+		</cobertura-instrument>
+	</target>
+
+
+
+
+	<!-- ================================= 
+	          target: javadoc             
+	         ================================= -->
+
+
+	<taskdef name="java2html" classname="com.java2html.Java2HTMLTask" classpathref="project.classpath" />
+	<target name="javadocReport" description="generates JavaDoc reports">
+		<javadoc packagenames="com.*" destdir="${javadoc.dir}" sourcepath="${src.java.dir}" classpathref="project.classpath" defaultexcludes="yes" author="true" version="true" use="true" linksource="yes" windowtitle="Scot Core API">
+		</javadoc>
+	</target>
+	<!-- ================================= 
+	          target: Deploy War To Server            
+	         ================================= -->
+	<target name="makeWar" depends="compile,copymetafiles">
+		<war destfile="${war.dir}/${war.name}" webxml="web/WEB-INF/web.xml">
+			<fileset dir="web"/>
+			<lib dir="lib">
+			</lib>
+			<classes  dir="${src.classes.dir}" />		
+		</war>
+	</target>
+	
+	<target name="deploy" depends="makeWar">
+	<!--
+		<exec dir="${server.dir}/bin" executable="cmd" os="Windows XP">
+			  <arg line="/c shutdown.bat"/>
+		</exec>
+		-->
+		<delete dir="${deploy.dir}/QuarkFramework">
+		</delete>
+		<delete dir="${deploy.dir}">
+			<include name="Quark*"/>
+		</delete>
+		<copy todir="${deploy.dir}">
+			<fileset dir="${war.dir}">
+			</fileset>
+		</copy>
+	
+		<exec dir="${server.dir}/bin" executable="cmd" os="Windows XP">
+			  <arg line="/c startup.bat"/>
+		</exec>
+		
+	</target>
+
+</project>

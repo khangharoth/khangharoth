@@ -1,0 +1,624 @@
+/*
+  $Id: stylesheet.css 1739 2007-12-20 00:52:16Z hpdl $
+
+  osCommerce, Open Source E-Commerce Solutions
+  http://www.oscommerce.com
+
+  Copyright (c) 2003 osCommerce
+
+  Released under the GNU General Public License
+*/
+
+.boxText { font-family: Verdana, Arial, sans-serif; font-size: 10px; }
+.errorBox { font-family : Verdana, Arial, sans-serif; font-size : 10px; background: #ffb3b5; font-weight: bold; }
+.stockWarning { font-family : Verdana, Arial, sans-serif; font-size : 10px; color: #cc0033; }
+.productsNotifications { background: #f2fff7; }
+.orderEdit { font-family : Verdana, Arial, sans-serif; font-size : 10px; color: #70d250; text-decoration: underline; }
+
+BODY {
+  /*background: #ffffff;*/
+  color: #000000;
+  background-color: #ffffff;
+ /* color: #666666; */
+  text-align: center;
+}
+
+A {
+  color: #000000;
+  text-decoration: none;
+}
+
+A:hover {
+  color: #AABBDD;
+  text-decoration: underline;
+}
+
+FORM {
+	display: inline;
+}
+
+TR.header {
+  background: #ffffff;
+}
+
+TR.headerNavigation {
+  background: #c80012;
+}
+
+TD.headerNavigation {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  background: #c80012;
+  color: #ffffff;
+  font-weight : bold;
+}
+
+A.headerNavigation { 
+  color: #FFFFFF; 
+}
+
+A.headerNavigation:hover {
+  color: #ffffff;
+}
+
+TR.headerError {
+  background: #ff0000;
+}
+
+TD.headerError {
+  font-family: Tahoma, Verdana, Arial, sans-serif;
+  font-size: 12px;
+  background: #ff0000;
+  color: #ffffff;
+  font-weight : bold;
+  text-align : center;
+}
+
+TR.headerInfo {
+  background: #00ff00;
+}
+
+TD.headerInfo {
+  font-family: Tahoma, Verdana, Arial, sans-serif;
+  font-size: 12px;
+  background: #00ff00;
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+}
+
+TR.footer {
+  background: #c80012;
+}
+
+TD.footer {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  background: #c80012;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.infoBox {
+  background: gray;
+}
+
+.infoBoxContents {
+  background: #f9f9f9;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.infoBoxNotice {
+  background: #FF8E90;
+}
+
+.infoBoxNoticeContents {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.infoBoxHeading {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #c80012;
+  color: #ffffff;
+}
+
+TD.infoBox, SPAN.infoBox {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TR.accountHistory-odd, TR.addressBook-odd, TR.alsoPurchased-odd, TR.payment-odd, TR.productListing-odd, TR.productReviews-odd, TR.upcomingProducts-odd, TR.shippingOptions-odd {
+  background: #f8f8f9;
+}
+
+TR.accountHistory-even, TR.addressBook-even, TR.alsoPurchased-even, TR.payment-even, TR.productListing-even, TR.productReviews-even, TR.upcomingProducts-even, TR.shippingOptions-even {
+  background: #f8f8f9;
+}
+
+TABLE.productListing {
+  border: 1px;
+  border-style: solid;
+  border-color: #b6b7cb;
+  border-spacing: 1px;
+}
+
+.productListing-heading {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  background: #b6b7cb;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+TD.productListing-data {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+A.pageResults {
+  color: #0000FF;
+}
+
+A.pageResults:hover {
+  color: #0000FF;
+  background: #FFFF33;
+}
+
+TD.pageHeading, DIV.pageHeading {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 18px;
+  padding-bottom: 5px;
+  font-weight: bold;
+  /*color: #9a9a9a; */
+  color: #000000;
+}
+
+TR.subBar {
+  background: #f4f7fd;
+}
+
+TD.subBar {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  color: #000000;
+}
+
+TD.main, P.main{
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 11px;
+  line-height: 1.5;
+  color: #000000;
+}
+
+TD.smallText, SPAN.smallText, P.smallText {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+TD.accountCategory {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 13px;
+  color: #aabbdd;
+}
+
+TD.fieldKey {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+TD.fieldValue {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 12px;
+}
+
+TD.tableHeading {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+SPAN.newItemInCart {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  color: #ff0000;
+}
+
+CHECKBOX, INPUT, RADIO, SELECT {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 11px;
+}
+
+TEXTAREA {
+  width: 100%;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 11px;
+}
+
+SPAN.greetUser {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 12px;
+  color: #f0a480;
+  font-weight: bold;
+}
+
+TABLE.formArea {
+  background: #f1f9fe;
+  border-color: #7b9ebd;
+  border-style: solid;
+  border-width: 1px;
+}
+
+TD.formAreaTitle {
+  font-family: Tahoma, Verdana, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+SPAN.markProductOutOfStock {
+  font-family: Tahoma, Verdana, Arial, sans-serif;
+  font-size: 12px;
+  color: #c76170;
+  font-weight: bold;
+}
+
+SPAN.productSpecialPrice {
+  font-family: Verdana, Arial, sans-serif;
+  color: #ff0000;
+}
+
+SPAN.errorText {
+  font-family: Verdana, Arial, sans-serif;
+  color: #ff0000;
+}
+
+.moduleRow { }
+.moduleRowOver { background-color: #D7E9F7; cursor: pointer; cursor: hand; }
+.moduleRowSelected { background-color: #E9F4FC; }
+
+.checkoutBarFrom, .checkoutBarTo { font-family: Verdana, Arial, sans-serif; font-size: 10px; color: #8c8c8c; }
+.checkoutBarCurrent { font-family: Verdana, Arial, sans-serif; font-size: 10px; color: #000000; }
+
+/* message box */
+
+.messageBox { font-family: Verdana, Arial, sans-serif; font-size: 10px; }
+.messageStackError, .messageStackWarning { font-family: Verdana, Arial, sans-serif; font-size: 10px; background-color: #ffb3b5; }
+.messageStackSuccess { font-family: Verdana, Arial, sans-serif; font-size: 10px; background-color: #99ff00; }
+
+/* input requirement */
+
+.inputRequirement { font-family: Verdana, Arial, sans-serif; font-size: 10px; color: #ff0000; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*FROM BnB*/
+.listingHdr {
+background-color:#FFEEDC;
+border-top:1px solid #FCC58C;
+margin:0 0 5px;
+padding:3px;
+width:493px;
+}
+
+
+
+
+
+.listingPic {
+border:1px solid #777777;
+padding:2px;
+}
+
+.greyText {
+colorr:#777777;
+
+}
+
+
+.ph2 {
+color:#ED860C;
+font-size:10pt;
+font-weight:bold;
+margin:0;
+padding:0 0 3px;
+}
+
+
+
+ul {
+list-style-image:url(/globostay/images/bulletArrowUL.gif);
+margin:0;
+padding-left:22px;
+padding-right:8px;
+}
+ul, li {
+margin-top:0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Agoda CSS*/
+.box_resultcontent {
+background-color:#FFFFFF;
+border-color:#c80012;
+border-style:solid;
+border-width:1px;
+margin-bottom:10px;
+
+}
+
+
+.vertical_align {
+text-align:left;
+vertical-align:top;
+}
+
+
+.area_list_photo {
+height:77px;
+padding:10px;
+width:115px;
+border: none;
+}
+
+.box_select {
+background-color:#F4F4F4;
+text-align:center;
+vertical-align:middle;
+width:112px;
+}
+.box_select input {
+text-transform:uppercase;
+}
+.mastersearch_button {
+background-color:#ffedec;
+border:1px solid #c80012;
+color:#000000;
+cursor:pointer;
+width: 90px;
+margin-bottom: 5px;
+text-transform: uppercase;
+font-weight: bold;
+}
+
+.title_hotelcity {
+float:left;
+padding-top:10px;
+}
+
+.agoda_bluemediumbold {
+-x-system-font:none;
+color:#0081EA;
+font-family:Arial,Helvetica,sans-serif;
+font-size: 14px;
+font-size-adjust:none;
+font-stretch:normal;
+font-style:normal;
+font-variant:normal;
+font-weight:bold;
+line-height:normal;
+text-decoration: underline;
+
+}
+
+
+
+
+
+
+
+
+
+
+.bkdetail {
+width:100%;
+}
+
+.bkdetail th.left {
+font-weight:700;
+}
+.bkdetail th {
+-x-system-font:none;
+background-color:#DDDDDD;
+font-family:Arial,Helvetica,sans-serif;
+font-size:small;
+font-size-adjust:none;
+font-stretch:normal;
+font-style:normal;
+font-variant:normal;
+font-weight:normal;
+line-height:normal;
+padding:10px 5px;
+}
+.left {
+text-align:left;
+}
+
+
+
+
+.bkdetail th {
+-x-system-font:none;
+background-color:#DDDDDD;
+font-family:Arial,Helvetica,sans-serif;
+font-size:small;
+font-size-adjust:none;
+font-stretch:normal;
+font-style:normal;
+font-variant:normal;
+font-weight:normal;
+line-height:normal;
+padding:10px 5px;
+}
+.right {
+text-align:right;
+}
+
+.box_note {
+margin-top:15px;
+padding-bottom:20px;
+}
+
+
+.bg_booking {
+background-color:#EFEFEF;
+line-height:23px;
+margin:3px 0;
+overflow:hidden;
+padding:5px;
+}
+
+
+.blackbold {
+-x-system-font:none;
+color:#000000;
+font-family:Arial,Helvetica,sans-serif;
+font-size:small;
+font-size-adjust:none;
+font-stretch:normal;
+font-style:normal;
+font-variant:normal;
+font-weight:bold;
+line-height:normal;
+}
+
+
+.sum_period {
+clear:both;
+overflow:hidden;
+}
+
+.num_period {
+float:right;
+font-weight:700;
+}
+
+
+.bg_grandtotal {
+background-color:#DDDDDD;
+clear:both;
+font-weight:700;
+margin:3px 0;
+padding:5px;
+}
+
+.floatleft {
+float:left;
+}
+
+
+
+.xsmallgreen {
+-x-system-font:none;
+color:#1DAD58;
+font-family:Arial,Helvetica,sans-serif;
+font-size:11px;
+font-size-adjust:none;
+font-stretch:normal;
+font-style:normal;
+font-variant:normal;
+font-weight:normal;
+line-height:normal;
+}
+.right {
+text-align:right;
+}
+
+
+
+#wrapper {
+	position:relative;
+	margin:0px auto;
+ 	background:#fff;
+	width:996px;
+	border: 1px solid red;
+	height: auto !important;
+	height: 100%;/*Hack IE6*/
+	min-height: 100%;/*Hack Firefox*/	
+	
+}
+
+#box_table {
+	margin:0 auto;
+	width:986px;
+}
+
+
+
+
+
+.sectionHeading{
+	font-family:Arial,Helvetica,sans-serif;
+	font-weight:bold;
+	text-transform: uppercase;
+	font-size: 14px;
+	color: #ffffff;
+	background-color: #c80012;
+	padding: 2px;
+	}
+.tableHeader{
+	font-family:Arial,Helvetica,sans-serif;
+	font-weight:bold;
+	text-transform: uppercase;
+	font-size: 12px;
+	color: #000000;
+	border-top: 1px solid gray;
+	border-bottom:1px solid gray;
+	border-left: 1px solid gray;
+	border-right: 1px solid gray;
+	text-align: center;
+}
+.cellData{
+	font-family:Arial,Helvetica,sans-serif;
+	font-weight:normal;
+	font-size: 12px;
+	border-bottom:1px solid gray;
+	border-left: 1px solid gray;
+	border-right: 1px solid gray;
+	padding-left: 5px;
+}
+.messageDiv{
+	font-family:Arial,Helvetica,sans-serif;
+	font-weight:bold;
+	font-size: 14px;
+	border:1px solid red;
+	text-align: center;
+	min-height: 50px;
+	
+}
+.borderRed {
+	border: 1px solid #c80012;
+}
+img.expando{
+border: none;
+vertical-align: top;
+}
