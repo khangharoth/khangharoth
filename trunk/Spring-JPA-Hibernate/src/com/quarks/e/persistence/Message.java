@@ -1,0 +1,111 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+package com.quarks.e.persistence;
+
+import java.io.Serializable;
+import java.util.Collection;
+
+import javax.persistence.Basic;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
+import javax.persistence.NamedQueries;
+import javax.persistence.NamedQuery;
+import javax.persistence.OneToMany;
+import javax.persistence.Table;
+
+/**
+ * 
+ * @author Kuldeep Singh
+ *
+ */
+@Entity
+@Table(name = "message")
+@NamedQueries({@NamedQuery(name = "Message.findAll", query = "SELECT m FROM Message m"), @NamedQuery(name = "Message.findById", query = "SELECT m FROM Message m WHERE m.id = :id"), @NamedQuery(name = "Message.findByMessageText", query = "SELECT m FROM Message m WHERE m.messageText = :messageText")})
+public class Message implements Serializable {
+    private static final long serialVersionUID = 1L;
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Basic(optional = false)
+    @Column(name = "id")
+    private Long id;
+    @Column(name = "MESSAGE_TEXT")
+    private String messageText;
+    @OneToMany(mappedBy = "nextMessageId")
+    private Collection<Message> messageCollection;
+    @JoinColumn(name = "NEXT_MESSAGE_ID", referencedColumnName = "id")
+    @ManyToOne
+    private Message nextMessageId;
+
+    public Message() {
+    }
+
+    public Message(Long id) {
+        this.id = id;
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getMessageText() {
+        return messageText;
+    }
+
+    public void setMessageText(String messageText) {
+        this.messageText = messageText;
+    }
+
+    public Collection<Message> getMessageCollection() {
+        return messageCollection;
+    }
+
+    public void setMessageCollection(Collection<Message> messageCollection) {
+        this.messageCollection = messageCollection;
+    }
+
+    public Message getNextMessageId() {
+        return nextMessageId;
+    }
+
+    public void setNextMessageId(Message nextMessageId) {
+        this.nextMessageId = nextMessageId;
+    }
+
+    @Override
+    public int hashCode() {
+        int hash = 0;
+        hash += (id != null ? id.hashCode() : 0);
+        return hash;
+    }
+
+    @Override
+    public boolean equals(Object object) {
+        // TODO: Warning - this method won't work in the case the id fields are not set
+        if (!(object instanceof Message)) {
+            return false;
+        }
+        Message other = (Message) object;
+        if ((this.id == null && other.id != null) || (this.id != null && !this.id.equals(other.id))) {
+            return false;
+        }
+        return true;
+    }
+
+    @Override
+    public String toString() {
+        return "com.quarks.d.persistence.Message[id=" + id + "]";
+    }
+
+}
