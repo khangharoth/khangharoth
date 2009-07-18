@@ -16,7 +16,6 @@ import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.mvc.Controller;
 
 import com.quarks.b.delegate.Delegate;
-import com.quarks.c.service.MessageService;
 import com.quarks.e.persistence.Message;
 
 /**
@@ -35,7 +34,6 @@ public class InvController implements Controller
     {
 
         String now = ( new java.util.Date() ).toString();
-        logger.info( "returning hello view with " + now );
 
         Map<String, Object> myModel = new HashMap<String, Object>();
         myModel.put( "now", now );
