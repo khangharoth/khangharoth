@@ -1,0 +1,78 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>commandPattern</groupId>
+	<artifactId>commandPattern</artifactId>
+	<name>test</name>
+	<version>0.0.1-SNAPSHOT</version>
+
+
+	<build>
+		<plugins>
+			<!--  =============================================================	-->
+			<!--  Java Compiler - Compiles all java sources - see configuration -->
+			<!--  =============================================================	-->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<source>1.6</source>
+					<target>1.6</target>
+				</configuration>
+			</plugin>
+
+			<!--  =============================================================	-->
+			<!--  Build source jar - Build src jar including java sources 		-->
+			<!--  =============================================================	-->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-source-plugin</artifactId>
+				<inherited>true</inherited>
+				<executions>
+					<execution>
+						<goals>
+							<goal>jar</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-scm-plugin</artifactId>
+				<version>1.2</version>
+				<configuration>
+					<username>singhk</username>
+					<password>welcome1</password>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+	<dependencies>
+		<dependency>
+			<groupId>coherence</groupId>
+			<artifactId>coherence</artifactId>
+			<version>3.5</version>
+		</dependency>
+		<dependency>
+			<groupId>coherence</groupId>
+			<artifactId>coherence-common</artifactId>
+			<version>1.3.0</version>
+		</dependency>
+		<dependency>
+			<groupId>coherence</groupId>
+			<artifactId>coherence-commandpattern</artifactId>
+			<version>2.3.0</version>
+		</dependency>
+		<!--
+			<dependency> <groupId>junit</groupId> <artifactId>junit</artifactId>
+			<version>4.0</version> <scope>test</scope> </dependency>
+		-->
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>5.9</version>
+			<scope>test</scope>
+			<classifier>jdk15</classifier>
+		</dependency>
+	</dependencies>
+</project>
