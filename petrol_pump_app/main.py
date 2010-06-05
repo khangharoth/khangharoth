@@ -18,6 +18,7 @@ class gui_main(wx.Frame):
 		self.b1=wx.Button(self.panel1,1,'Login',(X/2-50,Y/2-50))
 		self.Bind(wx.EVT_BUTTON,self.OnLogin,id=1)
 		#self.panel1.Show(True)
+
 		
 		self.panel2=wx.Panel(self.tabbed1,-1)
 		self.tabbed2=wx.Notebook(self.panel2, -1, style=(wx.NB_LEFT),size=(X,Y))		
