@@ -19,6 +19,7 @@ class WelcomePanel:
 
         return  welcomePanel
 
+        
 
     def OnLogin(self,welcomePanel,event,):
            print welcomePanel.userNameLabelText.userName.GetValue()
