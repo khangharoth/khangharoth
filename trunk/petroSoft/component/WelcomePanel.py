@@ -1,5 +1,6 @@
 import wx
 from component.LabelText import LabelText
+from component.Delegate import Delegate
 from functools import partial
 defaultId=-1
 
@@ -22,6 +23,13 @@ class WelcomePanel:
         
 
     def OnLogin(self,welcomePanel,event,):
-           print welcomePanel.userNameLabelText.userName.GetValue()
+           obj =Delegate()
+           value=obj.checkUser(welcomePanel.userNameLabelText.userName.GetValue(),welcomePanel.pwdLabelText.userName.GetValue())
+
+           if value==0 :
+               print " Welcome User"
+           else :
+               print "Invalid User"
+
 
 
