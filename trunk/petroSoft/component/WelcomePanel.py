@@ -2,34 +2,38 @@ import wx
 from component.LabelText import LabelText
 from component.Delegate import Delegate
 from functools import partial
-defaultId=-1
+from component.constants import constants
 
+c=constants()
 class WelcomePanel:
-    def createWelcomePanel(self, noteBook):
-        welcomePanel= wx.Panel(noteBook, defaultId, size=(100, 100))
+    def createWelcomePanel(self, noteBook,InitializePanel):
+
+        welcomePanel= wx.Panel(noteBook, c.defaultId, size=(100, 100))
 
 
-        welcomePanel.userNameLabelText=LabelText('Username:', (50,50), welcomePanel)
-        welcomePanel.pwdLabelText=LabelText('PassWord:', (50,80), welcomePanel)
+        welcomePanel.userNameLabelText=LabelText(c.USERNAMELABEL, (50,50), welcomePanel)
+        welcomePanel.pwdLabelText=LabelText(c.PWDLABEL, (50,80), welcomePanel)
 
-        welcomePanel.loginButton=wx.Button(welcomePanel,1,'Login',(50, 130))
-
-
+        welcomePanel.loginButton=wx.Button(welcomePanel,1,c.LOGINLABEL,(50, 130))
+        welcomePanel.loginFailedTxt=wx.StaticText(welcomePanel,c.defaultId,c.LOGINFAILEDLABEL,(50,180))
+        welcomePanel.loginFailedTxt.Show(False)
         
-        welcomePanel.Bind(wx.EVT_BUTTON, partial(self.OnLogin,welcomePanel),id=1)
+        welcomePanel.Bind(wx.EVT_BUTTON, partial(self.OnLogin,welcomePanel,InitializePanel),id=1)
 
         return  welcomePanel
 
         
 
-    def OnLogin(self,welcomePanel,event,):
+    def OnLogin(self,welcomePanel,InitializePanel,event):
            obj =Delegate()
            value=obj.checkUser(welcomePanel.userNameLabelText.userName.GetValue(),welcomePanel.pwdLabelText.userName.GetValue())
 
-           if value==0 :
-               print " Welcome User"
+           if value :
+               welcomePanel.Show(False)
+               InitializePanel.Show(True)
+               print 'Welcome user'
            else :
-               print "Invalid User"
+               welcomePanel.loginFailedTxt.Show(True)
 
 
 

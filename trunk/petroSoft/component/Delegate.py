@@ -1,7 +1,7 @@
 class Delegate:
 
     def checkUser(self,userName,pwd):
-          if userName=="Rashi":
-            return 0
+          if userName=='rashi' and pwd=='rashi':
+            return True
           else :
-            return  1
+            return  False
