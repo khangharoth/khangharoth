@@ -1,6 +1,6 @@
 import wx
-from component.InitializePanel import InitializePanel
-from component.WelcomePanel import WelcomeTab
+
+from component.WelcomeTab import WelcomeTab
 from component.TransactionTab import TransactionTab
 from component.constants import constants
 
