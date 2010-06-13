@@ -1,5 +1,6 @@
 class constants:
     WELCOMETAB='Welcome'
+    TRANSACTION_TAB='Transactions'
     INITIALIZETAB='Initialize'
 
     USERNAMELABEL='Username:'
