@@ -1,6 +1,7 @@
 import wx
 from component.InitializePanel import InitializePanel
-from component.WelcomePanel import WelcomePanel
+from component.WelcomePanel import WelcomeTab
+from component.TransactionTab import TransactionTab
 from component.constants import constants
 
 c=constants()
@@ -21,13 +22,11 @@ class mainFrame(wx.Frame):
         c=constants()
         noteBook= wx.Notebook(self, c.defaultId, style=(wx.NB_TOP))
 
-        obj=InitializePanel()
-        InitializePanelObj=obj.createInitializePanel(noteBook)
-        noteBook.AddPage(InitializePanelObj,c.INITIALIZETAB)
 
-        obj=WelcomePanel()
-        WelcomePanelObj= obj.createWelcomePanel(noteBook,InitializePanelObj)
-        noteBook.AddPage( WelcomePanelObj,c.WELCOMETAB)
+        noteBook.AddPage( WelcomeTab().createWelcomePanel(noteBook),c.WELCOMETAB)
+        noteBook.AddPage( TransactionTab().createTransactionTab(noteBook),c.TRANSACTION_TAB)
+
+
 
         return noteBook
 
