@@ -1,8 +1,8 @@
 import wx
-from component.LabelText import LabelText
+from com.petroSoft.gui.LabelText import LabelText
 from component.Delegate import Delegate
 from functools import partial
-from component.constants import constants
+from com.petroSoft.constants import constants
 c=constants()
 
 class TransactionTab:
