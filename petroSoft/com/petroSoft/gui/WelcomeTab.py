@@ -2,7 +2,7 @@ import wx
 from com.petroSoft.gui.LabelText import LabelText
 from com.petroSoft.Delegate import Delegate
 from functools import partial
-from com.petroSoft.constants import constants
+from com.petroSoft.Constants import constants
 
 c=constants()
 class WelcomeTab:
