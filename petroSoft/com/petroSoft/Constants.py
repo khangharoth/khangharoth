@@ -10,4 +10,10 @@ class constants:
 
     INITIALIZEWARN='Are you sure you want to initialize whole database'
     INITIALIZEMESSAGETITLE='Alert'
+
+    PETROL='Petrol (Litre) :'
+    Diesel='Diesel (Litre)  :'
+
+
+    SUBMIT='Submit'
     defaultId=-1
