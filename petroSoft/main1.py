@@ -1,8 +1,8 @@
 import wx
 
-from component.WelcomeTab import WelcomeTab
-from component.TransactionTab import TransactionTab
-from component.constants import constants
+from com.petroSoft.gui.WelcomeTab import WelcomeTab
+from com.petroSoft.gui.TransactionTab import TransactionTab
+from com.petroSoft.constants import constants
 
 c=constants()
 
