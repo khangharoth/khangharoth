@@ -1,5 +1,5 @@
 import wx
-from com.petroSoft.gui.LabelText import LabelText
+from com.petroSoft.gui.custom.LabelText import LabelText
 from functools import partial
 from com.petroSoft.Constants import constants
 c=constants()
