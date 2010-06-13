@@ -2,7 +2,7 @@ import wx
 
 from com.petroSoft.gui.WelcomeTab import WelcomeTab
 from com.petroSoft.gui.TransactionTab import TransactionTab
-from com.petroSoft.constants import constants
+from com.petroSoft.Constants import constants
 
 c=constants()
 
