@@ -1,6 +1,5 @@
 import wx
 from com.petroSoft.gui.LabelText import LabelText
-from component.Delegate import Delegate
 from functools import partial
 from com.petroSoft.constants import constants
 c=constants()
