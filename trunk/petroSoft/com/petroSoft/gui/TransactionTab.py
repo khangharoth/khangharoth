@@ -23,6 +23,8 @@ class TransactionTab:
         submitId = 1
         stockPanel.submit = wx.Button(stockPanel, submitId, c.SUBMIT, (50, 180))
         stockPanel.Bind(wx.EVT_BUTTON, partial(self.OnSubmit, stockPanel), id=submitId)
+
+
         noteBook.AddPage(stockPanel, STOCK)
 
     def createTransactionTab(self,parent):
@@ -41,7 +43,7 @@ class TransactionTab:
 
     def OnSubmit(self,stockPanel,event):
 
-           value=self.delegate.addToStock(stockPanel.petrolLabelText.userName.GetValue(),stockPanel.dieselLabelText.userName.GetValue())
+           value=self.delegate.addToStock(stockPanel.petrolLabelText.getValue(),stockPanel.dieselLabelText.getValue())
 
            print(self.delegate.getStock())
 

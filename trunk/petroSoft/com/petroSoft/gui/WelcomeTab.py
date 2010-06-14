@@ -26,7 +26,7 @@ class WelcomeTab:
 
     def OnLogin(self,welcomePanel,event):
            obj =Delegate()
-           value=obj.checkUser(welcomePanel.userNameLabelText.userName.GetValue(),welcomePanel.pwdLabelText.userName.GetValue())
+           value=obj.checkUser(welcomePanel.userNameLabelText.getValue(),welcomePanel.pwdLabelText.getValue())
 
            if value :
                welcomePanel.Show(False)
