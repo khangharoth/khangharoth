@@ -14,6 +14,9 @@ class constants:
     PETROL='Petrol (Litre) :'
     Diesel='Diesel (Litre)  :'
 
+    CURRENT_PETROL_STOCK='Current Petrol Stock (Litre)  :'
+    CURRENT_DIESEL_STOCK='Current Diesel Stock (Litre)  :'
+
 
     SUBMIT='Submit'
     defaultId=-1
