@@ -8,6 +8,7 @@ import wx
 from com.petroSoft.Constants import constants
 from com.petroSoft.Delegate import Delegate
 from com.petroSoft.gui.custom.LabelText import LabelText
+from com.petroSoft.gui.custom.LabelValue import LabelValue
 from functools import partial
 c=constants()
 
@@ -15,6 +16,11 @@ class TransactionTab:
     def addTab(self, noteBook, name):
            noteBook.AddPage(wx.Panel(noteBook,c.defaultId), name)
 
+
+    def populateCurrentStock(self, stockPanel):
+        currentStock = self.delegate.getStock()
+        stockPanel.currentPetrolStock = LabelValue(c.CURRENT_PETROL_STOCK, currentStock[0], (50, 250), stockPanel)
+        stockPanel.currentDieselStock = LabelValue(c.CURRENT_DIESEL_STOCK, currentStock[1], (50, 300), stockPanel)
 
     def addStockTab(self, noteBook):
         stockPanel = wx.Panel(noteBook, c.defaultId)
@@ -24,6 +30,7 @@ class TransactionTab:
         stockPanel.submit = wx.Button(stockPanel, submitId, c.SUBMIT, (50, 180))
         stockPanel.Bind(wx.EVT_BUTTON, partial(self.OnSubmit, stockPanel), id=submitId)
 
+        self.populateCurrentStock(stockPanel)
 
         noteBook.AddPage(stockPanel, STOCK)
 
@@ -43,8 +50,8 @@ class TransactionTab:
 
     def OnSubmit(self,stockPanel,event):
 
-           value=self.delegate.addToStock(stockPanel.petrolLabelText.getValue(),stockPanel.dieselLabelText.getValue())
+           self.delegate.addToStock(stockPanel.petrolLabelText.getValue(),stockPanel.dieselLabelText.getValue())
 
-           print(self.delegate.getStock())
+           self.populateCurrentStock(stockPanel)
 
     
