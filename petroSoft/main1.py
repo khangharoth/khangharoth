@@ -11,7 +11,6 @@ class mainFrame(wx.Frame):
     def __init__(self, title):
         wx.Frame.__init__(self, None, c.defaultId, title,size=(800,600))
         self.createNoteBook()
-
         self.CreateStatusBar()
         self.Centre()
         self.Show(True)
