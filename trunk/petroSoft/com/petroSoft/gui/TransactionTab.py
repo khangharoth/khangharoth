@@ -18,6 +18,10 @@ class TransactionTab:
 
 
     def populateCurrentStock(self, stockPanel):
+        if stockPanel.countSubmit:
+            stockPanel.currentPetrolStock.value.Show(False)
+            stockPanel.currentDieselStock.value.Show(False)
+        stockPanel.countSubmit=1
         currentStock = self.delegate.getStock()
         stockPanel.currentPetrolStock = LabelValue(c.CURRENT_PETROL_STOCK, currentStock[0], (50, 250), stockPanel)
         stockPanel.currentDieselStock = LabelValue(c.CURRENT_DIESEL_STOCK, currentStock[1], (50, 300), stockPanel)
@@ -29,7 +33,7 @@ class TransactionTab:
         submitId = 1
         stockPanel.submit = wx.Button(stockPanel, submitId, c.SUBMIT, (50, 180))
         stockPanel.Bind(wx.EVT_BUTTON, partial(self.OnSubmit, stockPanel), id=submitId)
-
+        stockPanel.countSubmit=0
         self.populateCurrentStock(stockPanel)
 
         noteBook.AddPage(stockPanel, STOCK)
