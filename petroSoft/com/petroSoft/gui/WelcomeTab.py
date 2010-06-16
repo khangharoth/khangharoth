@@ -11,8 +11,8 @@ class WelcomeTab:
         welcomePanel= wx.Panel(noteBook, c.defaultId, size=(100, 100))
 
 
-        welcomePanel.userNameLabelText=LabelText(c.USERNAMELABEL, (50,50), welcomePanel)
-        welcomePanel.pwdLabelText=LabelText(c.PWDLABEL, (50,80), welcomePanel)
+        welcomePanel.userNameLabelText=LabelText(c.USERNAMELABEL, (50,50), welcomePanel,wx.TE_LINEWRAP)
+        welcomePanel.pwdLabelText=LabelText(c.PWDLABEL, (50,80), welcomePanel,wx.TE_LINEWRAP)
 
         welcomePanel.loginButton=wx.Button(welcomePanel,1,c.LOGINLABEL,(50, 130))
         welcomePanel.loginFailedTxt=wx.StaticText(welcomePanel,c.defaultId,c.LOGINFAILEDLABEL,(50,180))
