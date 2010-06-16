@@ -18,18 +18,18 @@ class TransactionTab:
 
 
     def populateCurrentStock(self, stockPanel):
-        if stockPanel.countSubmit:
-            stockPanel.currentPetrolStock.value.Show(False)
-            stockPanel.currentDieselStock.value.Show(False)
-        stockPanel.countSubmit=1
         currentStock = self.delegate.getStock()
-        stockPanel.currentPetrolStock = LabelValue(c.CURRENT_PETROL_STOCK, currentStock[0], (50, 250), stockPanel)
-        stockPanel.currentDieselStock = LabelValue(c.CURRENT_DIESEL_STOCK, currentStock[1], (50, 300), stockPanel)
+        stockPanel.currentPetrolStock.text.SetValue(str(currentStock[0]))
+        stockPanel.currentDieselStock.text.SetValue(str(currentStock[0]))
 
     def addStockTab(self, noteBook):
         stockPanel = wx.Panel(noteBook, c.defaultId)
-        stockPanel.petrolLabelText = LabelText(c.PETROL, (50, 50), stockPanel)
-        stockPanel.dieselLabelText = LabelText(c.Diesel, (50, 150), stockPanel)
+        
+        stockPanel.petrolLabelText = LabelText(c.PETROL, (50, 50), stockPanel,wx.TE_LINEWRAP)
+        stockPanel.dieselLabelText = LabelText(c.Diesel, (50, 150), stockPanel,wx.TE_LINEWRAP)
+        stockPanel.currentPetrolStock = LabelText(c.CURRENT_PETROL_STOCK, (50, 250), stockPanel,wx.TE_READONLY)
+        stockPanel.currentDieselStock = LabelText(c.CURRENT_DIESEL_STOCK,  (50, 300), stockPanel,wx.TE_READONLY)
+
         submitId = 1
         stockPanel.submit = wx.Button(stockPanel, submitId, c.SUBMIT, (50, 180))
         stockPanel.Bind(wx.EVT_BUTTON, partial(self.OnSubmit, stockPanel), id=submitId)
