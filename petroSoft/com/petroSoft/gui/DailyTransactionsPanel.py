@@ -31,6 +31,12 @@ class DTPanel:
          self.populateCurrentCredit(DTPanel)
          self.populateCurrentStock(DTPanel)
 
+     def resetpetrolLabelText(self,DTPanel):
+        DTPanel.petrolLabelText.text.SetValue(c.ZERO)
+
+     def resetdieselLabelText(self,DTPanel):
+        DTPanel.dieselLabelText.text.SetValue(c.ZERO)
+     
      def populateCurrentCredit(self,DTPanel):
         currentCredit=self.delegate.getCredit()
         DTPanel.currentTotalCredit.text.SetValue(str(currentCredit))
@@ -45,3 +51,6 @@ class DTPanel:
            self.delegate.addToCredit(DTPanel.petrolLabelText.getValue(),DTPanel.dieselLabelText.getValue())
            self.populateCurrentStock(DTPanel)
            self.populateCurrentCredit(DTPanel)
+           self.resetpetrolLabelText(DTPanel)
+           self.resetdieselLabelText(DTPanel)
+        

@@ -1,7 +1,7 @@
 import wx
-
 from com.petroSoft.gui.WelcomeTab import WelcomeTab
 from com.petroSoft.gui.TransactionTab import TransactionTab
+from com.petroSoft.gui.SettingsTab import SettingsTab
 from com.petroSoft.Constants import constants
 
 c=constants()
@@ -24,7 +24,7 @@ class mainFrame(wx.Frame):
 
         noteBook.AddPage( WelcomeTab().createWelcomePanel(noteBook),c.WELCOMETAB)
         noteBook.AddPage( TransactionTab().createTransactionTab(noteBook),c.TRANSACTION_TAB)
-
+        noteBook.AddPage( SettingsTab().createSettingsTab(noteBook),c.SETTINGS_TAB)
 
 
         return noteBook

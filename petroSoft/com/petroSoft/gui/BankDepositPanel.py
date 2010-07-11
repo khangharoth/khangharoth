@@ -23,6 +23,8 @@ class BankPanel:
         self.populateCurrentTotalCredit(BankPanel,None)
         self.populateCurrentBankCredit(BankPanel)
         return BankPanel
+     def resetdebitLabelText(self,BankPanel):
+        BankPanel.debitLabelText.text.SetValue(c.ZERO)
 
      def populateCurrentTotalCredit(self,BankPanel,event):
         currentCredit=self.delegate.getCredit()
@@ -37,3 +39,4 @@ class BankPanel:
            self.delegate.addToDebit(BankPanel.debitLabelText.getValue())
            self.populateCurrentTotalCredit(BankPanel,None)
            self.populateCurrentBankCredit(BankPanel)
+           self.resetdebitLabelText(BankPanel)
