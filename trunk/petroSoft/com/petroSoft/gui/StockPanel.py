@@ -23,6 +23,11 @@ class StockPanel:
         self.populateCurrentStock(stockPanel,None)
         return stockPanel
 
+     def resetpetrolLabelText(self,stockPanel):
+        stockPanel.petrolLabelText.text.SetValue(c.ZERO)
+
+     def resetdieselLabelText(self,stockPanel):
+        stockPanel.dieselLabelText.text.SetValue(c.ZERO)
 
      def populateCurrentStock(self, stockPanel,event):
         currentStock = self.delegate.getStock()
@@ -30,5 +35,7 @@ class StockPanel:
         stockPanel.currentDieselStock.text.SetValue(str(currentStock[1]))
 
      def OnSubmit(self,stockPanel,event):
-           self.delegate.addToStock(stockPanel.petrolLabelText.getValue(),stockPanel.dieselLabelText.getValue())
-           self.populateCurrentStock(stockPanel,None)
+        self.delegate.addToStock(stockPanel.petrolLabelText.getValue(),stockPanel.dieselLabelText.getValue())
+        self.populateCurrentStock(stockPanel,None)
+        self.resetpetrolLabelText(stockPanel)
+        self.resetdieselLabelText(stockPanel)

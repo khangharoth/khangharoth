@@ -6,12 +6,20 @@ class Delegate:
          self.dieselPrice=35
          self.credit=0
          self.bankCredit=0
+         self.cursessionUser=None
 
     def checkUser(self,userName,pwd):
-          if userName=='rashi' and pwd=='rashi':
+        if userName=='rashi' and pwd=='rashi':
+            self.cursessionUser=userName
             return True
-          else :
+        else :
             return  False
+    def authenticate(self,pwd):
+        if pwd=='rashi': #for the username=self.cursessionUser
+            return True
+        else:
+            return False
+
 
     def addToStock(self,petrolQuantity,dieselQuantity):
         self.petrolQunt=self.petrolQunt + int(petrolQuantity)
