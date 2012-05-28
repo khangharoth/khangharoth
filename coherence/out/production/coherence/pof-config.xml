@@ -1,0 +1,10 @@
+<!DOCTYPE pof-config SYSTEM "pof-config.dtd">
+<pof-config>
+	<user-type-list>
+		<include>coherence-pof-config.xml</include>
+		<!-- User types must be above 1000 -->
+
+		<!-- PortableObject -->
+
+	</user-type-list>
+</pof-config>
