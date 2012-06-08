@@ -1,0 +1,31 @@
+
+
+a)Three major non-functional requirements: Performance, Scalability, and Availability.
+
+You need to ensure that your application is fast, remains fast even under heavy load,
+ and stays up and running even when the hardware or software components that it depends on fail.
+
+
+ Oracle Coherence is an In-Memory Data Grid that allows you to eliminate single points of failure
+  and single points of bottleneck in your application by distributing your application's
+  objects and related processing across multiple physical servers.
+
+One of the easiest ways to improve application performance is to bring data closer to the application,
+and keep it in a format that the application can consume more easily.
+
+Coherence with Orm : you can configure Coherence as an L2 cache for Hibernate or EclipseLink,
+and forget about distributed cache synchronization!
+
+Network Latency :
+when building a distributed system,
+ another important factor we need to consider is network latency.
+
+Each database query, each call to a remote service,
+and each Coherence cache access will incur some latency. Although it might be only a millisecond or less for each individual call, it quickly gets compounded by the sheer number of calls.
+
+Bandwidth usage  :
+The application retrieving a lot of data from a database, performing some simple processing on it, and storing it back in a database.
+The application retrieving significantly more data than it really needs. For example, I've seen large object graphs loaded from database using multiple queries in order to populate a simple drop-down box.
+
+
+page =16 ,37 of 408
