@@ -1,0 +1,70 @@
+package com.rbs.odc.core.dao.coherence.extractor;
+
+import com.tangosol.io.pof.EvolvablePortableObject;
+import com.tangosol.io.pof.reflect.PofValue;
+import com.tangosol.io.pof.reflect.SimplePofPath;
+import com.tangosol.util.Binary;
+
+public class NullHandlingPofPath extends SimplePofPath implements EvolvablePortableObject {
+
+    public NullHandlingPofPath() {
+    }
+
+    public NullHandlingPofPath(int index) {
+        super(index);
+    }
+
+    public NullHandlingPofPath(int... indices) {
+        super(indices);
+    }
+
+    @Override
+    public PofValue navigate(PofValue valueOrigin) {
+        int[] pathElements = getPathElements();
+        PofValue valueCurrent = valueOrigin;
+
+        for (int index : pathElements) {
+            try {
+                valueCurrent = valueCurrent.getChild(index);
+            } catch (Exception e) {
+                break;
+            }
+        }
+        return valueCurrent;
+    }
+
+    @Override
+    public int getImplVersion() {
+        return 1;
+    }
+
+    private int dataVersion = 0;
+    @Override
+    public int getDataVersion() {
+        return dataVersion;
+    }
+
+    @Override
+    public void setDataVersion(int version) {
+        if (dataVersion != 0) {
+            throw new IllegalStateException("Data version has already been set");
+        }
+        dataVersion = version;
+    }
+
+    private Binary futureData;
+    @Override
+    public Binary getFutureData() {
+        return futureData;
+    }
+
+    @Override
+    public void setFutureData(Binary futureData) {
+        if (this.futureData != null) {
+            throw new IllegalStateException("futureData has already been set");
+        }
+        this.futureData = futureData;
+    }
+
+}
+
