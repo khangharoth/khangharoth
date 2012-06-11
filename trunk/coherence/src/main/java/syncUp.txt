@@ -1,2 +1,5 @@
 a) No need of Cluster package .
    PKG str should be : lesson1 , lesson2 
+   
+b) Lesson 1 : Just Cache Get and Put.
+              Node joining cluster and leaving the cluster.
