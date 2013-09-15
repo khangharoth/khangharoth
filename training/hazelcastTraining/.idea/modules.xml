@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/training-1-basicGetAndPut/training-1-basicGetAndPut.iml" filepath="$PROJECT_DIR$/training-1-basicGetAndPut/training-1-basicGetAndPut.iml" />
-      <module fileurl="file://$PROJECT_DIR$/training-2-clusterSetUp/training-2-clusterSetUp.iml" filepath="$PROJECT_DIR$/training-2-clusterSetUp/training-2-clusterSetUp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/training-2-clusterSetup/training-2-clusterSetup.iml" filepath="$PROJECT_DIR$/training-2-clusterSetup/training-2-clusterSetup.iml" />
     </modules>
   </component>
 </project>
