@@ -30,14 +30,7 @@ public class SpyNode {
     }
 
     @Test
-    public void clusterServiceInfo() {
-        SafeService service = (SafeService) cluster.getService("Cluster");
-
-        System.out.println(service);
-    }
-
-    @Test
-    public void distributedServiceInfo() {
+    public void shouldGetClusterMembers() {
         SafeDistributedCacheService service = (SafeDistributedCacheService) cluster.getService("DistributedCache");
 
         Set<Member> members = service.getOwnershipEnabledMembers();
@@ -55,6 +48,15 @@ public class SpyNode {
         Member owner = service.getKeyOwner(trade.getTradeKey());
 
         System.out.println(owner);
+    }
+
+    @Test
+    public void shouldGetKeyPartition() {
+        SafeDistributedCacheService service = (SafeDistributedCacheService) cluster.getService("DistributedCache");
+
+        int partition = service.getKeyPartitioningStrategy().getKeyPartition(trade.getTradeKey());
+
+        System.out.println(partition);
     }
 
     private Trade trade() {

@@ -15,8 +15,11 @@
     <file path="/Trade.java" changelist="adf638d7-84de-4cf7-9c2b-1525ba8b0336" time="1379852216104" ignored="false" />
     <file path="/TradeKey.java" changelist="adf638d7-84de-4cf7-9c2b-1525ba8b0336" time="1379853100577" ignored="false" />
     <file path="/fragment.java" changelist="adf638d7-84de-4cf7-9c2b-1525ba8b0336" time="1380042485099" ignored="false" />
-    <file path="/SpyNode.java" changelist="adf638d7-84de-4cf7-9c2b-1525ba8b0336" time="1380042580303" ignored="false" />
+    <file path="/SpyNode.java" changelist="adf638d7-84de-4cf7-9c2b-1525ba8b0336" time="1380044104528" ignored="false" />
     <file path="/cluster.txt" changelist="adf638d7-84de-4cf7-9c2b-1525ba8b0336" time="1379853286577" ignored="false" />
+    <file path="$PROJECT_DIR$/../hazelcastTraining/training-2-clusterSetup/src/test/java/com/SpyNode.java" changelist="adf638d7-84de-4cf7-9c2b-1525ba8b0336" time="1380044107315" ignored="false" />
+    <file path="$PROJECT_DIR$/../hazelcastTraining/training-2-clusterSetup/src/main/java/com/domain/TradeKey.java" changelist="adf638d7-84de-4cf7-9c2b-1525ba8b0336" time="1380043325032" ignored="false" />
+    <file path="$PROJECT_DIR$/../hazelcastTraining/training-2-clusterSetup/src/main/java/com/domain/Trade.java" changelist="adf638d7-84de-4cf7-9c2b-1525ba8b0336" time="1380043370995" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +84,7 @@
       <file leaf-file-name="CacheServer.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/training-2-clusterSetUp/src/main/java/com/CacheServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="18" selection-start="158" selection-end="158" vertical-scroll-proportion="0.0">
+            <state line="9" column="13" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -90,7 +93,16 @@
       <file leaf-file-name="SpyNode.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/training-2-clusterSetUp/src/test/java/com/cluster/anatomy/SpyNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="17" selection-start="1587" selection-end="1587" vertical-scroll-proportion="1.0840708">
+            <state line="58" column="18" selection-start="1797" selection-end="1797" vertical-scroll-proportion="0.71139705">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Trade.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/training-2-clusterSetUp/src/main/java/com/domain/Trade.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="51" column="0" selection-start="51" selection-end="991" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -108,7 +120,7 @@
       <file leaf-file-name="TradeKey.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/training-2-clusterSetUp/src/main/java/com/domain/TradeKey.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="45" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0">
+            <state line="23" column="0" selection-start="51" selection-end="417" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -226,6 +238,58 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coherenceTraining" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="training-2-clusterSetUp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="domain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coherenceTraining" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="training-2-clusterSetUp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -261,7 +325,7 @@
       <recent name="com" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.SpyNode.shouldGetKeyOwner">
+  <component name="RunManager" selected="TestNG.SpyNode.shouldGetKeyPartition">
     <configuration default="false" name="CacheServer" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.CacheServer" />
       <option name="VM_PARAMETERS" />
@@ -281,35 +345,6 @@
       </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="SpyNode.clusterServiceInfo" type="TestNG" factoryName="TestNG" temporary="true">
-      <module name="training-2-clusterSetUp" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="com.cluster.anatomy" />
-      <option name="MAIN_CLASS_NAME" value="com.cluster.anatomy.SpyNode" />
-      <option name="METHOD_NAME" value="clusterServiceInfo" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -383,6 +418,35 @@
       <option name="PACKAGE_NAME" value="com.cluster.anatomy" />
       <option name="MAIN_CLASS_NAME" value="com.cluster.anatomy.SpyNode" />
       <option name="METHOD_NAME" value="shouldGetKeyOwner" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="SpyNode.shouldGetKeyPartition" type="TestNG" factoryName="TestNG" temporary="true">
+      <module name="training-2-clusterSetUp" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="com.cluster.anatomy" />
+      <option name="MAIN_CLASS_NAME" value="com.cluster.anatomy.SpyNode" />
+      <option name="METHOD_NAME" value="shouldGetKeyPartition" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -494,18 +558,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.CacheServer" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.SpyNode.clusterServiceInfo" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.SpyNode" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.SpyNode.distributedServiceInfo" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.SpyNode.shouldGetKeyOwner" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.SpyNode" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.SpyNode.distributedServiceInfo" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.SpyNode.shouldGetKeyOwner" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.SpyNode.shouldGetKeyPartition" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.SpyNode.shouldGetKeyOwner" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.SpyNode.distributedServiceInfo" />
-        <item index="2" class="java.lang.String" itemvalue="Application.CacheServer" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.SpyNode" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.SpyNode.clusterServiceInfo" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.SpyNode.shouldGetKeyPartition" />
+        <item index="1" class="java.lang.String" itemvalue="Application.CacheServer" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.SpyNode.shouldGetKeyOwner" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.SpyNode.distributedServiceInfo" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.SpyNode" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -543,13 +607,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="0" width="1346" height="728" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.55789477" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.55789477" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -558,7 +622,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.44210526" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.44561404" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.55438596" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -691,20 +755,6 @@
         <state line="13" column="35" selection-start="277" selection-end="277" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/training-2-clusterSetUp/src/main/java/com/domain/Trade.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="5" selection-start="375" selection-end="375" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/training-2-clusterSetUp/src/main/java/com/domain/TradeKey.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="45" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/training-2-clusterSetUp/reading/cluster.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="31" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0">
@@ -712,16 +762,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/training-2-clusterSetUp/src/main/java/com/domain/TradeKey.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="51" selection-end="417" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/training-2-clusterSetUp/src/main/java/com/domain/Trade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="0" selection-start="51" selection-end="991" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/training-2-clusterSetUp/src/main/java/com/CacheServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="18" selection-start="158" selection-end="158" vertical-scroll-proportion="0.0">
+        <state line="9" column="13" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/training-2-clusterSetUp/src/test/java/com/cluster/anatomy/SpyNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="17" selection-start="1587" selection-end="1587" vertical-scroll-proportion="1.0840708">
+        <state line="58" column="18" selection-start="1797" selection-end="1797" vertical-scroll-proportion="0.71139705">
           <folding />
         </state>
       </provider>
