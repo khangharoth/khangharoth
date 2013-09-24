@@ -5,12 +5,14 @@ import com.tangosol.net.DefaultCacheServer;
 
 public class CacheServer {
 
+    private static final Object lock=new Object();
+
     public static void main(String[] args) throws Exception {
 
         DefaultCacheServer.startDaemon();
 
-        while (true) {
-            Thread.sleep(1000 * 10);
+        synchronized (lock)   {
+            lock.wait();
         }
     }
 }
