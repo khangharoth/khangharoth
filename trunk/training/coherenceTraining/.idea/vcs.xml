@@ -3,6 +3,7 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="" />
     <mapping directory="$PROJECT_DIR$/training-2-clusterSetUp" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/training-3-sampleApp" vcs="svn" />
   </component>
 </project>
 
