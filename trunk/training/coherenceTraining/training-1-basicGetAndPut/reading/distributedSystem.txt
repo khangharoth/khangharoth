@@ -1,0 +1,16 @@
+A distributed System is a collection of independent computers that gives a Single System Image.
+
+Distributed System :
+                       1) Multiple systems that are autonomous.
+
+                       2) Presents SSI to outside users/world.
+
+                       3) Hence these systems needs to collaborate - Heart of distributed system tech.
+
+
+
+  so what we talking about ? - A logical layer (software) which sits on hardware of
+                              multiple m/c , network and basic communication.
+
+
+                              And it tries hard to hide all this and present itself as One big System.

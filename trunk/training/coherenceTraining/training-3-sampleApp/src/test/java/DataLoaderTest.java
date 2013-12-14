@@ -1,3 +1,4 @@
+import com.DataLoader;
 import com.domain.Portfolio;
 import com.domain.Trade;
 import com.domain.TradeKey;

@@ -34,6 +34,8 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="module" module-name="training-2-clusterSetUp" />
+    <orderEntry type="module" module-name="training-3-sampleApp" />
   </component>
 </module>
 
