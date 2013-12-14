@@ -1,3 +1,5 @@
+package com;
+
 import com.domain.Portfolio;
 import com.domain.Trade;
 import com.domain.TradeKey;
