@@ -5,6 +5,7 @@
     <mapping directory="$PROJECT_DIR$/training-2-clusterSetUp" vcs="svn" />
     <mapping directory="$PROJECT_DIR$/training-3-sampleApp" vcs="svn" />
     <mapping directory="$PROJECT_DIR$/training-4-cache-topology" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/training-5-pof" vcs="svn" />
   </component>
 </project>
 
