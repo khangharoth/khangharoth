@@ -4,6 +4,14 @@
     <list default="true" readonly="true" id="adf638d7-84de-4cf7-9c2b-1525ba8b0336" name="Default" comment="" />
     <ignored path="coherenceTraining.iws" />
     <ignored path=".idea/workspace.xml" />
+    <file path="/CacheTopologyTest.java" changelist="adf638d7-84de-4cf7-9c2b-1525ba8b0336" time="1387043794883" ignored="false" />
+    <file path="/fragment.java" changelist="adf638d7-84de-4cf7-9c2b-1525ba8b0336" time="1387044775242" ignored="false" />
+    <file path="/coherence-cache-config.xml" changelist="adf638d7-84de-4cf7-9c2b-1525ba8b0336" time="1387122564501" ignored="false" />
+    <file path="/Topology.java" changelist="adf638d7-84de-4cf7-9c2b-1525ba8b0336" time="1387046092236" ignored="false" />
+    <file path="/PortableTrade.java" changelist="adf638d7-84de-4cf7-9c2b-1525ba8b0336" time="1387120928992" ignored="false" />
+    <file path="/PortableTradeKey.java" changelist="adf638d7-84de-4cf7-9c2b-1525ba8b0336" time="1387120595662" ignored="false" />
+    <file path="/PofSerializationTest.java" changelist="adf638d7-84de-4cf7-9c2b-1525ba8b0336" time="1387121492134" ignored="false" />
+    <file path="/pof-config.xml" changelist="adf638d7-84de-4cf7-9c2b-1525ba8b0336" time="1387122175574" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,29 +73,62 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="coherence-cache-config.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/training-4-cache-topology/src/main/resources/coherence-cache-config.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="training-4-cache-topology.iml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/training-4-cache-topology/training-4-cache-topology.iml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="CacheTopologyTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/training-4-cache-topology/src/test/java/com/cache/topology/CacheTopologyTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="13" selection-start="622" selection-end="622" vertical-scroll-proportion="0.0">
+            <state line="26" column="68" selection-start="776" selection-end="837" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PortableTrade.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/training-5-pof/src/main/java/com/domain/pof/PortableTrade.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="26" selection-start="215" selection-end="228" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PofSerializationTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/training-5-pof/src/test/java/com/domian/pof/PofSerializationTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="5" selection-start="496" selection-end="497" vertical-scroll-proportion="-1.04">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="coherence-cache-config.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/training-5-pof/src/main/resources/coherence-cache-config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="42" selection-start="1278" selection-end="1278" vertical-scroll-proportion="0.7058824">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pof-config.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/training-5-pof/src/main/resources/pof-config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="52" selection-start="341" selection-end="341" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PortableTradeKey.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/training-5-pof/src/main/java/com/domain/pof/PortableTradeKey.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="29" selection-start="187" selection-end="203" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -102,19 +143,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/training-1-basicGetAndPut/src/main/java/com/getAndPut/Put.java" />
-        <option value="$PROJECT_DIR$/training-1-basicGetAndPut/src/main/java/com/getAndPut/Get.java" />
-        <option value="$PROJECT_DIR$/training-2-clusterSetUp/src/main/java/com/CoherenceNode.java" />
-        <option value="$PROJECT_DIR$/training-1-basicGetAndPut/src/main/java/com/CacheServer.java" />
         <option value="$PROJECT_DIR$/training-2-clusterSetUp/src/main/java/com/CacheServer.java" />
         <option value="$PROJECT_DIR$/training-2-clusterSetUp/src/main/java/com/domain/Trade.java" />
         <option value="$PROJECT_DIR$/training-2-clusterSetUp/src/main/java/com/domain/TradeKey.java" />
         <option value="$PROJECT_DIR$/training-2-clusterSetUp/reading/cluster.txt" />
         <option value="$PROJECT_DIR$/training-2-clusterSetUp/src/test/java/com/cluster/anatomy/SpyNode.java" />
         <option value="$PROJECT_DIR$/training-3-sampleApp/src/test/java/DataLoaderTest.java" />
-        <option value="$PROJECT_DIR$/training-4-cache-topology/src/main/resources/coherence-cache-config.xml" />
         <option value="$PROJECT_DIR$/training-3-sampleApp/src/main/java/com/DataLoader.java" />
+        <option value="$PROJECT_DIR$/training-4-cache-topology/src/main/java/com/Topology.java" />
+        <option value="$PROJECT_DIR$/training-3-sampleApp/src/main/resources/portfolio.csv" />
+        <option value="$PROJECT_DIR$/training-4-cache-topology/src/main/resources/coherence-cache-config.xml" />
+        <option value="$PROJECT_DIR$/training-5-pof/src/main/java/com/domain/pof/PortableTrade.java" />
         <option value="$PROJECT_DIR$/training-4-cache-topology/src/test/java/com/cache/topology/CacheTopologyTest.java" />
+        <option value="$PROJECT_DIR$/training-5-pof/src/test/java/com/domian/pof/PofSerializationTest.java" />
+        <option value="$PROJECT_DIR$/training-5-pof/src/main/java/com/domain/pof/PortableTradeKey.java" />
+        <option value="$PROJECT_DIR$/training-5-pof/src/main/resources/pof-config.xml" />
+        <option value="$PROJECT_DIR$/training-5-pof/src/main/resources/coherence-cache-config.xml" />
       </list>
     </option>
   </component>
@@ -149,6 +193,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -157,91 +203,30 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="coherenceTraining" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="training-4-cache-topology" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="coherenceTraining" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="training-4-cache-topology" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="topology" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="coherenceTraining" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="training-4-cache-topology" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="coherenceTraining" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="training-4-cache-topology" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.last.edited" value="Modules" />
+    <property name="OverrideImplement.combined" value="true" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="LayoutCode.rearrangeEntriesXML" value="false" />
     <property name="options.lastSelected" value="vcs.Subversion" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../new/training/coherenceTraining" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/training-1-basicGetAndPut/lib/testng-6.5.1.jar!/" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -250,44 +235,22 @@
       <recent name="C:\work\workspace\training\coherenceTraining\training-3-sampleApp\src\main\java" />
       <recent name="C:\work\workspace\training\coherenceTraining\training-1-basicGetAndPut\lib" />
     </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\work\workspace\training\coherenceTraining\training-2-clusterSetUp" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com" />
+    </key>
   </component>
-  <component name="RunManager" selected="TestNG.CacheTopologyTest">
-    <configuration default="false" name="CacheServer" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.CacheServer" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="training-2-clusterSetUp" />
-      <envs />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="SpyNode.shouldGetKeyOwner" type="TestNG" factoryName="TestNG" temporary="true">
-      <module name="training-2-clusterSetUp" />
+  <component name="RunManager" selected="TestNG.PofSerializationTest">
+    <configuration default="false" name="CacheTopologyTest.shouldHavePortfolioCacheAsPartitioned" type="TestNG" factoryName="TestNG" temporary="true">
+      <module name="training-4-cache-topology" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="com.cluster.anatomy" />
-      <option name="MAIN_CLASS_NAME" value="com.cluster.anatomy.SpyNode" />
-      <option name="METHOD_NAME" value="shouldGetKeyOwner" />
+      <option name="PACKAGE_NAME" value="test.java.com.cache.topology" />
+      <option name="MAIN_CLASS_NAME" value="test.java.com.cache.topology.CacheTopologyTest" />
+      <option name="METHOD_NAME" value="shouldHavePortfolioCacheAsPartitioned" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -309,42 +272,13 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="SpyNode.shouldGetKeyPartition" type="TestNG" factoryName="TestNG" temporary="true">
-      <module name="training-2-clusterSetUp" />
+    <configuration default="false" name="CacheTopologyTest" type="TestNG" factoryName="TestNG" temporary="true">
+      <module name="training-4-cache-topology" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="com.cluster.anatomy" />
-      <option name="MAIN_CLASS_NAME" value="com.cluster.anatomy.SpyNode" />
-      <option name="METHOD_NAME" value="shouldGetKeyPartition" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="DataLoaderTest" type="TestNG" factoryName="TestNG" temporary="true">
-      <module name="training-3-sampleApp" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DataLoaderTest" />
+      <option name="PACKAGE_NAME" value="com.cache.topology" />
+      <option name="MAIN_CLASS_NAME" value="com.cache.topology.CacheTopologyTest" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -363,8 +297,37 @@
       <envs />
       <properties />
       <listeners />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="CacheTopologyTest.shouldHaveStaticCacheAsReplicated" type="TestNG" factoryName="TestNG" temporary="true">
+      <module name="training-4-cache-topology" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="com.cache.topology" />
+      <option name="MAIN_CLASS_NAME" value="com.cache.topology.CacheTopologyTest" />
+      <option name="METHOD_NAME" value="shouldHaveStaticCacheAsReplicated" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="54472" />
+        <option name="DEBUG_PORT" value="54558" />
         <option name="TRANSPORT" value="0" />
         <option name="LOCAL" value="true" />
       </RunnerSettings>
@@ -373,13 +336,29 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="CacheTopologyTest" type="TestNG" factoryName="TestNG" temporary="true">
+    <configuration default="false" name="Topology" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.Topology" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
       <module name="training-4-cache-topology" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="PofSerializationTest" type="TestNG" factoryName="TestNG" temporary="true">
+      <module name="training-5-pof" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="test.java.com.cache.topology" />
-      <option name="MAIN_CLASS_NAME" value="test.java.com.cache.topology.CacheTopologyTest" />
+      <option name="PACKAGE_NAME" value="com.domian.pof" />
+      <option name="MAIN_CLASS_NAME" value="com.domian.pof.PofSerializationTest" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -434,6 +413,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -459,19 +451,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -525,19 +504,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.CacheServer" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.SpyNode.shouldGetKeyOwner" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.SpyNode.shouldGetKeyPartition" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.DataLoaderTest" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.CacheTopologyTest" />
+      <item index="0" class="java.lang.String" itemvalue="TestNG.CacheTopologyTest.shouldHavePortfolioCacheAsPartitioned" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.CacheTopologyTest" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.CacheTopologyTest.shouldHaveStaticCacheAsReplicated" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Topology" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.PofSerializationTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.CacheTopologyTest" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.DataLoaderTest" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.SpyNode.shouldGetKeyPartition" />
-        <item index="3" class="java.lang.String" itemvalue="Application.CacheServer" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.SpyNode.shouldGetKeyOwner" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.PofSerializationTest" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Topology" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.CacheTopologyTest.shouldHaveStaticCacheAsReplicated" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.CacheTopologyTest" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.CacheTopologyTest.shouldHaveStaticCacheAsReplicated" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -575,13 +554,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="0" width="1346" height="728" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.55789477" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41578948" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -590,8 +569,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.67192984" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5518395" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.25789472" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.74210525" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -673,56 +652,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/training-1-basicGetAndPut/src/main/java/com/getAndPut/Put.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="25" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/training-1-basicGetAndPut/src/main/java/com/getAndPut/Get.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="18" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/training-1-basicGetAndPut/src/main/java/com/getAndPut/Put.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="16" selection-start="119" selection-end="119" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/training-1-basicGetAndPut/src/main/java/com/CacheServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="35" selection-start="277" selection-end="277" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/training-2-clusterSetUp/reading/cluster.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="31" selection-start="68" selection-end="68" vertical-scroll-proportion="0.062271062" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/training-2-clusterSetUp/src/main/java/com/domain/TradeKey.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="51" selection-end="417" vertical-scroll-proportion="0.7161172" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/training-2-clusterSetUp/src/main/java/com/domain/Trade.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="0" selection-start="51" selection-end="991" vertical-scroll-proportion="0.8131868" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/training-2-clusterSetUp/src/main/java/com/CacheServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/training-2-clusterSetUp/src/test/java/com/cluster/anatomy/SpyNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="18" selection-start="1797" selection-end="1797" vertical-scroll-proportion="0.45054945" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/training-3-sampleApp/src/main/resources/trades.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/training-1-basicGetAndPut/src/main/java/com/getAndPut/Get.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="13" selection-start="112" selection-end="112" vertical-scroll-proportion="0.11888112" />
@@ -740,21 +669,95 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/training-4-cache-topology/training-4-cache-topology.iml">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/training-3-sampleApp/src/main/resources/portfolio.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="10" selection-start="10" selection-end="10" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/training-3-sampleApp/src/main/resources/trades.csv">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/training-4-cache-topology/src/test/java/com/cache/topology/CacheTopologyTest.java">
+    <entry file="file://$PROJECT_DIR$/training-4-cache-topology/src/main/java/com/Topology.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="13" selection-start="622" selection-end="622" vertical-scroll-proportion="0.0">
+        <state line="12" column="19" selection-start="288" selection-end="288" vertical-scroll-proportion="0.124542125">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/training-4-cache-topology/src/main/resources/coherence-cache-config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="46" column="40" selection-start="0" selection-end="2253" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/training-2-clusterSetUp/src/main/java/com/domain/Trade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="26" selection-start="100" selection-end="903" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/training-2-clusterSetUp/src/main/java/com/domain/TradeKey.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="12" selection-start="102" selection-end="414" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/training-4-cache-topology/src/test/java/com/cache/topology/CacheTopologyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="68" selection-start="776" selection-end="837" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/training-5-pof/src/main/java/com/domain/pof/PortableTradeKey.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="29" selection-start="187" selection-end="203" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/training-5-pof/src/main/java/com/domain/pof/PortableTrade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="26" selection-start="215" selection-end="228" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/training-5-pof/src/main/resources/pof-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="52" selection-start="341" selection-end="341" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/training-5-pof/src/test/java/com/domian/pof/PofSerializationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="5" selection-start="496" selection-end="497" vertical-scroll-proportion="-1.04">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/training-5-pof/src/main/resources/coherence-cache-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="42" selection-start="1278" selection-end="1278" vertical-scroll-proportion="0.7058824">
           <folding />
         </state>
       </provider>
@@ -812,7 +815,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>training-4-cache-topology</last-edited>
+          <last-edited>training-5-pof</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

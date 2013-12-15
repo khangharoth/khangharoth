@@ -1,4 +1,4 @@
-package test.java.com.cache.topology;
+package com.cache.topology;
 
 import com.DataLoader;
 import com.domain.Portfolio;
@@ -21,15 +21,6 @@ public class CacheTopologyTest {
 
     private ClusterMemberGroup memberGroup = null;
 
-    @BeforeClass
-    public void setUp() {
-        memberGroup = ClusterMemberGroupUtils.newBuilder().
-                setStorageEnabledCount(2).buildAndConfigureForStorageDisabledClient();
-
-//
-//        portfolioCache = CacheFactory.getCache("PortfolioCache");
-
-    }
 
     @Test
     public void shouldHaveTradeCacheAsPartitioned() throws IOException {
@@ -48,6 +39,20 @@ public class CacheTopologyTest {
 
         Assert.assertEquals(SafeDistributedCacheService.class, portfolioCache.getCacheService().getClass());
     }
+    @Test
+    public void shouldHaveStaticCacheAsReplicated() throws IOException {
+        NamedCache portfolioCache = CacheFactory.getCache("StaticCache");
+        Map<Integer, Portfolio> portfolios = DataLoader.loadPortfolioData("portfolio.csv");
+        portfolioCache.putAll(portfolios);
+    }
+
+    @BeforeClass
+    public void setUp() {
+        memberGroup = ClusterMemberGroupUtils.newBuilder().
+                setStorageEnabledCount(2).buildAndConfigureForStorageDisabledClient();
+
+    }
+
 
     @AfterClass
     public void tearDown() {
