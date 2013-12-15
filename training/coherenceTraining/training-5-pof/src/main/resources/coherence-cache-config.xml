@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<cache-config>
+    <caching-scheme-mapping>
+        <cache-mapping>
+            <cache-name>TradeCache</cache-name>
+            <scheme-name>distributed-cache</scheme-name>
+        </cache-mapping>
+        <cache-mapping>
+            <cache-name>StaticCache</cache-name>
+            <scheme-name>replicated-cache</scheme-name>
+        </cache-mapping>
+        <cache-mapping>
+            <cache-name>PortfolioCache</cache-name>
+            <scheme-name>near-cache</scheme-name>
+        </cache-mapping>
+    </caching-scheme-mapping>
+    <caching-schemes>
+        <distributed-scheme>
+            <scheme-name>distributed-cache</scheme-name>
+            <scheme-ref>basic-partition-scheme</scheme-ref>
+            <service-name>DistributedCache</service-name>
+        </distributed-scheme>
+        <distributed-scheme>
+            <scheme-name>basic-partition-scheme</scheme-name>
+            <partition-count>8191</partition-count>
+            <thread-count>5</thread-count>
+
+            <serializer>
+                <class-name>com.tangosol.io.pof.ConfigurablePofContext</class-name>
+                <init-params>
+                    <init-param>
+                        <param-value>pof-config.xml</param-value>
+                        <param-type>String</param-type>
+                    </init-param>
+                </init-params>
+
+            </serializer>
+            <backing-map-scheme>
+                <partitioned>true</partitioned>
+                <local-scheme>
+
+                </local-scheme>
+            </backing-map-scheme>
+            <autostart>true</autostart>
+        </distributed-scheme>
+        <replicated-scheme>
+            <scheme-name>replicated-cache</scheme-name>
+            <service-name>ReplicatedCacheService</service-name>
+            <backing-map-scheme>
+                <local-scheme>
+
+                </local-scheme>
+            </backing-map-scheme>
+            <autostart>true</autostart>
+        </replicated-scheme>
+
+        <near-scheme>
+            <scheme-name>near-cache</scheme-name>
+            <front-scheme>
+                <local-scheme>
+                    <eviction-policy>HYBRID</eviction-policy>
+                    <high-units>2</high-units>
+                </local-scheme>
+            </front-scheme>
+            <back-scheme>
+                <distributed-scheme>
+                    <scheme-ref>distributed-cache</scheme-ref>
+                </distributed-scheme>
+            </back-scheme>
+            <invalidation-strategy>present</invalidation-strategy>
+            <autostart>true</autostart>
+        </near-scheme>
+    </caching-schemes>
+</cache-config>
