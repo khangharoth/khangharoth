@@ -5,13 +5,18 @@
     <ignored path="coherenceTraining.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/CacheTopologyTest.java" changelist="adf638d7-84de-4cf7-9c2b-1525ba8b0336" time="1387043794883" ignored="false" />
-    <file path="/fragment.java" changelist="adf638d7-84de-4cf7-9c2b-1525ba8b0336" time="1387044775242" ignored="false" />
+    <file path="/fragment.java" changelist="adf638d7-84de-4cf7-9c2b-1525ba8b0336" time="1387984314365" ignored="false" />
     <file path="/coherence-cache-config.xml" changelist="adf638d7-84de-4cf7-9c2b-1525ba8b0336" time="1387122564501" ignored="false" />
     <file path="/Topology.java" changelist="adf638d7-84de-4cf7-9c2b-1525ba8b0336" time="1387046092236" ignored="false" />
     <file path="/PortableTrade.java" changelist="adf638d7-84de-4cf7-9c2b-1525ba8b0336" time="1387120928992" ignored="false" />
     <file path="/PortableTradeKey.java" changelist="adf638d7-84de-4cf7-9c2b-1525ba8b0336" time="1387120595662" ignored="false" />
     <file path="/PofSerializationTest.java" changelist="adf638d7-84de-4cf7-9c2b-1525ba8b0336" time="1387121492134" ignored="false" />
     <file path="/pof-config.xml" changelist="adf638d7-84de-4cf7-9c2b-1525ba8b0336" time="1387122175574" ignored="false" />
+    <file path="/DataGridQueryTest.java" changelist="adf638d7-84de-4cf7-9c2b-1525ba8b0336" time="1388905331549" ignored="false" />
+    <file path="/Trade.java" changelist="adf638d7-84de-4cf7-9c2b-1525ba8b0336" time="1388909694604" ignored="false" />
+    <file path="/trades.csv" changelist="adf638d7-84de-4cf7-9c2b-1525ba8b0336" time="1388904011787" ignored="false" />
+    <file path="/CustomFilter.java" changelist="adf638d7-84de-4cf7-9c2b-1525ba8b0336" time="1388905084627" ignored="false" />
+    <file path="/AggregateLogicOnGridTest.java" changelist="adf638d7-84de-4cf7-9c2b-1525ba8b0336" time="1388909547927" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +31,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -64,6 +68,7 @@
       </breakpoint>
     </breakpoint_any>
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -73,19 +78,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CacheTopologyTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/training-4-cache-topology/src/test/java/com/cache/topology/CacheTopologyTest.java">
+      <file leaf-file-name="GridQueryTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/training-6-query/src/test/java/com/readOnly/GridQueryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="68" selection-start="776" selection-end="837" vertical-scroll-proportion="0.0">
+            <state line="89" column="73" selection-start="2830" selection-end="2893" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PortableTrade.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/training-5-pof/src/main/java/com/domain/pof/PortableTrade.java">
+      <file leaf-file-name="AggregateLogicOnGridTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/training-6-query/src/test/java/com/readOnly/AggregateLogicOnGridTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="26" selection-start="215" selection-end="228" vertical-scroll-proportion="0.0">
+            <state line="31" column="25" selection-start="947" selection-end="947" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -93,39 +98,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PofSerializationTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/training-5-pof/src/test/java/com/domian/pof/PofSerializationTest.java">
+      <file leaf-file-name="Trade.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/training-6-query/src/main/java/com/domain/Trade.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="5" selection-start="496" selection-end="497" vertical-scroll-proportion="-1.04">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="coherence-cache-config.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/training-5-pof/src/main/resources/coherence-cache-config.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="42" selection-start="1278" selection-end="1278" vertical-scroll-proportion="0.7058824">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pof-config.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/training-5-pof/src/main/resources/pof-config.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="52" selection-start="341" selection-end="341" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PortableTradeKey.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/training-5-pof/src/main/java/com/domain/pof/PortableTradeKey.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="29" selection-start="187" selection-end="203" vertical-scroll-proportion="0.0">
+            <state line="72" column="39" selection-start="1766" selection-end="1766" vertical-scroll-proportion="0.8308824">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -143,22 +119,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/training-2-clusterSetUp/src/main/java/com/CacheServer.java" />
-        <option value="$PROJECT_DIR$/training-2-clusterSetUp/src/main/java/com/domain/Trade.java" />
-        <option value="$PROJECT_DIR$/training-2-clusterSetUp/src/main/java/com/domain/TradeKey.java" />
-        <option value="$PROJECT_DIR$/training-2-clusterSetUp/reading/cluster.txt" />
-        <option value="$PROJECT_DIR$/training-2-clusterSetUp/src/test/java/com/cluster/anatomy/SpyNode.java" />
-        <option value="$PROJECT_DIR$/training-3-sampleApp/src/test/java/DataLoaderTest.java" />
-        <option value="$PROJECT_DIR$/training-3-sampleApp/src/main/java/com/DataLoader.java" />
-        <option value="$PROJECT_DIR$/training-4-cache-topology/src/main/java/com/Topology.java" />
-        <option value="$PROJECT_DIR$/training-3-sampleApp/src/main/resources/portfolio.csv" />
-        <option value="$PROJECT_DIR$/training-4-cache-topology/src/main/resources/coherence-cache-config.xml" />
-        <option value="$PROJECT_DIR$/training-5-pof/src/main/java/com/domain/pof/PortableTrade.java" />
         <option value="$PROJECT_DIR$/training-4-cache-topology/src/test/java/com/cache/topology/CacheTopologyTest.java" />
         <option value="$PROJECT_DIR$/training-5-pof/src/test/java/com/domian/pof/PofSerializationTest.java" />
         <option value="$PROJECT_DIR$/training-5-pof/src/main/java/com/domain/pof/PortableTradeKey.java" />
         <option value="$PROJECT_DIR$/training-5-pof/src/main/resources/pof-config.xml" />
         <option value="$PROJECT_DIR$/training-5-pof/src/main/resources/coherence-cache-config.xml" />
+        <option value="$PROJECT_DIR$/training-6-query/src/main/java/com/domain/PortableTrade.java" />
+        <option value="$PROJECT_DIR$/training-6-query/src/main/java/com/domain/DataLoader.java" />
+        <option value="$PROJECT_DIR$/training-6-query/src/main/resources/trades.csv" />
+        <option value="$PROJECT_DIR$/training-6-query/src/test/java/com/CustomFilter.java" />
+        <option value="$PROJECT_DIR$/training-6-query/src/main/java/com/filters/CustomFilter.java" />
+        <option value="$PROJECT_DIR$/training-6-query/src/main/resources/pof-config.xml" />
+        <option value="$PROJECT_DIR$/training-6-query/src/test/java/com/DataGridQueryTest.java" />
+        <option value="$PROJECT_DIR$/training-6-query/src/test/java/com/readOnly/DataGridQueryTest.java" />
+        <option value="$PROJECT_DIR$/training-6-query/src/test/java/com/readOnly/GridQueryTest.java" />
+        <option value="$PROJECT_DIR$/training-6-query/src/test/java/com/readOnly/AggregateLogicOnGridTest.java" />
+        <option value="$PROJECT_DIR$/training-6-query/src/main/java/com/domain/Trade.java" />
       </list>
     </option>
   </component>
@@ -186,7 +162,7 @@
       <showMembers />
       <showModules />
       <showLibraryContents />
-      <hideEmptyPackages />
+      <hideEmptyPackages ProjectPane="false" />
       <abbreviatePackageNames />
       <autoscrollToSource />
       <autoscrollFromSource />
@@ -201,6 +177,82 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="coherenceTraining" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coherenceTraining" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="training-6-query" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coherenceTraining" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="training-6-query" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="readOnly" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coherenceTraining" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="training-6-query" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coherenceTraining" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="training-6-query" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -220,6 +272,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/training-1-basicGetAndPut/lib/testng-6.5.1.jar!/" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
@@ -229,56 +282,31 @@
     <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.domain" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\work\workspace\training\coherenceTraining\training-6-query\src\main\resources" />
+      <recent name="C:\work\workspace\training\coherenceTraining\training-6-query\src\main\java\com\domain" />
       <recent name="C:\work\workspace\training\coherenceTraining\training-3-sampleApp\src\test\java" />
       <recent name="C:\work\workspace\training\coherenceTraining\training-3-sampleApp\src\main\resources" />
       <recent name="C:\work\workspace\training\coherenceTraining\training-3-sampleApp\src\main\java" />
-      <recent name="C:\work\workspace\training\coherenceTraining\training-1-basicGetAndPut\lib" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\work\workspace\training\coherenceTraining\training-2-clusterSetUp" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\work\workspace\training\coherenceTraining\training-2-clusterSetUp" />
+    </key>
   </component>
-  <component name="RunManager" selected="TestNG.PofSerializationTest">
-    <configuration default="false" name="CacheTopologyTest.shouldHavePortfolioCacheAsPartitioned" type="TestNG" factoryName="TestNG" temporary="true">
-      <module name="training-4-cache-topology" />
+  <component name="RunManager" selected="TestNG.AggregateLogicOnGridTest">
+    <configuration default="false" name="PofSerializationTest" type="TestNG" factoryName="TestNG" temporary="true">
+      <module name="training-5-pof" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="test.java.com.cache.topology" />
-      <option name="MAIN_CLASS_NAME" value="test.java.com.cache.topology.CacheTopologyTest" />
-      <option name="METHOD_NAME" value="shouldHavePortfolioCacheAsPartitioned" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="CacheTopologyTest" type="TestNG" factoryName="TestNG" temporary="true">
-      <module name="training-4-cache-topology" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="com.cache.topology" />
-      <option name="MAIN_CLASS_NAME" value="com.cache.topology.CacheTopologyTest" />
+      <option name="PACKAGE_NAME" value="com.domian.pof" />
+      <option name="MAIN_CLASS_NAME" value="com.domian.pof.PofSerializationTest" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -301,14 +329,78 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="CacheTopologyTest.shouldHaveStaticCacheAsReplicated" type="TestNG" factoryName="TestNG" temporary="true">
-      <module name="training-4-cache-topology" />
+    <configuration default="false" name="GridQueryTest" type="TestNG" factoryName="TestNG" temporary="true">
+      <module name="training-6-query" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="com.cache.topology" />
-      <option name="MAIN_CLASS_NAME" value="com.cache.topology.CacheTopologyTest" />
-      <option name="METHOD_NAME" value="shouldHaveStaticCacheAsReplicated" />
+      <option name="PACKAGE_NAME" value="com" />
+      <option name="MAIN_CLASS_NAME" value="com.readOnly.GridQueryTest" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="53637" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="GridQueryTest.shouldQueryUsingEqualsFilterWithPof" type="TestNG" factoryName="TestNG" temporary="true">
+      <module name="training-6-query" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="com" />
+      <option name="MAIN_CLASS_NAME" value="com.readOnly.GridQueryTest" />
+      <option name="METHOD_NAME" value="shouldQueryUsingEqualsFilterWithPof" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="GridQueryTest.shouldQueryUsingEqualsFilter" type="TestNG" factoryName="TestNG" temporary="true">
+      <module name="training-6-query" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="com" />
+      <option name="MAIN_CLASS_NAME" value="com.readOnly.GridQueryTest" />
+      <option name="METHOD_NAME" value="shouldQueryUsingEqualsFilter" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -327,7 +419,7 @@
       <properties />
       <listeners />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="54558" />
+        <option name="DEBUG_PORT" value="54148" />
         <option name="TRANSPORT" value="0" />
         <option name="LOCAL" value="true" />
       </RunnerSettings>
@@ -336,29 +428,13 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="Topology" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.Topology" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="training-4-cache-topology" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="PofSerializationTest" type="TestNG" factoryName="TestNG" temporary="true">
-      <module name="training-5-pof" />
+    <configuration default="false" name="AggregateLogicOnGridTest" type="TestNG" factoryName="TestNG" temporary="true">
+      <module name="training-6-query" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="com.domian.pof" />
-      <option name="MAIN_CLASS_NAME" value="com.domian.pof.PofSerializationTest" />
+      <option name="PACKAGE_NAME" value="com.readOnly" />
+      <option name="MAIN_CLASS_NAME" value="com.readOnly.AggregateLogicOnGridTest" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -504,19 +580,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="TestNG.CacheTopologyTest.shouldHavePortfolioCacheAsPartitioned" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.CacheTopologyTest" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.CacheTopologyTest.shouldHaveStaticCacheAsReplicated" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Topology" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.PofSerializationTest" />
+      <item index="0" class="java.lang.String" itemvalue="TestNG.PofSerializationTest" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.GridQueryTest" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.GridQueryTest.shouldQueryUsingEqualsFilterWithPof" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.GridQueryTest.shouldQueryUsingEqualsFilter" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.AggregateLogicOnGridTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.PofSerializationTest" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Topology" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.CacheTopologyTest.shouldHaveStaticCacheAsReplicated" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.CacheTopologyTest" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.CacheTopologyTest.shouldHaveStaticCacheAsReplicated" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.AggregateLogicOnGridTest" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.GridQueryTest" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.GridQueryTest.shouldQueryUsingEqualsFilter" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.GridQueryTest.shouldQueryUsingEqualsFilterWithPof" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.PofSerializationTest" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -557,9 +633,9 @@
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41578948" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -567,18 +643,19 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32807016" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.25789472" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2538941" sideWeight="0.25789472" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.74210525" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" x="110" y="100" width="1146" height="528" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -652,113 +729,118 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/training-1-basicGetAndPut/src/main/java/com/getAndPut/Get.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="112" selection-end="112" vertical-scroll-proportion="0.11888112" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/training-3-sampleApp/training-3-sampleApp.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/training-3-sampleApp/src/test/java/DataLoaderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="2" selection-start="1511" selection-end="1650" vertical-scroll-proportion="0.0" />
+        <state line="14" column="36" selection-start="465" selection-end="465" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/training-4-cache-topology/training-4-cache-topology.iml">
+    <entry file="file://$PROJECT_DIR$/training-6-query/training-6-query.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/training-3-sampleApp/src/main/resources/portfolio.csv">
+    <entry file="file://$PROJECT_DIR$/training-6-query/src/main/java/com/domain/TradeKey.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="10" selection-start="10" selection-end="10" vertical-scroll-proportion="0.0">
+        <state line="8" column="13" selection-start="183" selection-end="183" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/training-3-sampleApp/src/main/resources/trades.csv">
+    <entry file="jar://$PROJECT_DIR$/training-1-basicGetAndPut/lib/coherence.jar!/com/tangosol/util/extractor/PofExtractor.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="11" column="11" selection-start="433" selection-end="433" vertical-scroll-proportion="-6.8" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/training-4-cache-topology/src/main/java/com/Topology.java">
+    <entry file="jar://$PROJECT_DIR$/training-1-basicGetAndPut/lib/coherence.jar!/com/tangosol/util/extractor/ReflectionExtractor.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="19" selection-start="288" selection-end="288" vertical-scroll-proportion="0.124542125">
-          <folding />
-        </state>
+        <state line="11" column="11" selection-start="521" selection-end="521" vertical-scroll-proportion="0.33596838" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/training-4-cache-topology/src/main/resources/coherence-cache-config.xml">
+    <entry file="file://$PROJECT_DIR$/training-6-query/src/main/java/com/domain/DataLoader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="40" selection-start="0" selection-end="2253" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/training-2-clusterSetUp/src/main/java/com/domain/Trade.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="26" selection-start="100" selection-end="903" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/training-2-clusterSetUp/src/main/java/com/domain/TradeKey.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="12" selection-start="102" selection-end="414" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="16" column="39" selection-start="332" selection-end="332" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#433#450#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/training-4-cache-topology/src/test/java/com/cache/topology/CacheTopologyTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="68" selection-start="776" selection-end="837" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/training-5-pof/src/main/java/com/domain/pof/PortableTradeKey.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="29" selection-start="187" selection-end="203" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/training-5-pof/src/main/java/com/domain/pof/PortableTrade.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="26" selection-start="215" selection-end="228" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/training-5-pof/src/main/resources/pof-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="52" selection-start="341" selection-end="341" vertical-scroll-proportion="0.0">
+        <state line="30" column="104" selection-start="959" selection-end="1056" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/training-5-pof/src/test/java/com/domian/pof/PofSerializationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="5" selection-start="496" selection-end="497" vertical-scroll-proportion="-1.04">
+        <state line="33" column="3" selection-start="951" selection-end="1089" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/training-1-basicGetAndPut/lib/coherence.jar!/com/tangosol/util/filter/EqualsFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="13" selection-start="167" selection-end="167" vertical-scroll-proportion="0.16798419">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/training-6-query/src/main/resources/trades.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="11" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/training-6-query/src/main/java/com/filters/CustomFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="25" selection-start="242" selection-end="254" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/training-5-pof/src/main/resources/coherence-cache-config.xml">
+    <entry file="file://$PROJECT_DIR$/training-6-query/src/main/resources/pof-config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="42" selection-start="1278" selection-end="1278" vertical-scroll-proportion="0.7058824">
+        <state line="16" column="48" selection-start="457" selection-end="457" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/training-6-query/src/test/java/com/readOnly/GridQueryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="89" column="73" selection-start="2830" selection-end="2893" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/training-1-basicGetAndPut/lib/coherence.jar!/com/tangosol/util/aggregator/LongMax.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="66" selection-start="224" selection-end="224" vertical-scroll-proportion="0.16377649">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/training-6-query/src/test/java/com/readOnly/AggregateLogicOnGridTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="25" selection-start="947" selection-end="947" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/training-6-query/src/main/java/com/domain/Trade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="72" column="39" selection-start="1766" selection-end="1766" vertical-scroll-proportion="0.8308824">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -815,11 +897,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>training-5-pof</last-edited>
+          <last-edited>training-6-query</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
