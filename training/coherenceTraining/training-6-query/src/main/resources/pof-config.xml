@@ -21,5 +21,10 @@
             <type-id>1004</type-id>
             <class-name>com.aggregator.NotionalAggregator</class-name>
         </user-type>
+
+        <user-type>
+            <type-id>1005</type-id>
+            <class-name>com.ep.PortfolioUpdateEp</class-name>
+        </user-type>
     </user-type-list>
 </pof-cofig>
