@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/training-3-sampleApp/training-3-sampleApp.iml" filepath="$PROJECT_DIR$/training-3-sampleApp/training-3-sampleApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/training-4-cache-topology/training-4-cache-topology.iml" filepath="$PROJECT_DIR$/training-4-cache-topology/training-4-cache-topology.iml" />
       <module fileurl="file://$PROJECT_DIR$/training-5-pof/training-5-pof.iml" filepath="$PROJECT_DIR$/training-5-pof/training-5-pof.iml" />
+      <module fileurl="file://$PROJECT_DIR$/training-6-query/training-6-query.iml" filepath="$PROJECT_DIR$/training-6-query/training-6-query.iml" />
     </modules>
   </component>
 </project>

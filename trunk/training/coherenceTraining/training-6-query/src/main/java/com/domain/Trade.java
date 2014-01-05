@@ -15,6 +15,8 @@ public class Trade implements PortableObject {
 
     private String counterParty;
 
+    private Long notional;
+
     public Trade() {
     }
 
@@ -50,19 +52,24 @@ public class Trade implements PortableObject {
         this.portfolio = portfolio;
     }
 
+    public Long getNotional() {
+        return notional;
+    }
+
     @Override
     public void readExternal(PofReader pofReader) throws IOException {
         this.tradeKey = (TradeKey) pofReader.readObject(0);
         this.portfolio = pofReader.readString(1);
         this.instrumentType = pofReader.readString(2);
         this.counterParty = pofReader.readString(3);
+        this.notional = pofReader.readLong(4);
     }
 
     @Override
     public void writeExternal(PofWriter pofWriter) throws IOException {
         pofWriter.writeObject(0, tradeKey);
-        pofWriter.writeString(1,portfolio);
-        pofWriter.writeString(2,instrumentType);
-        pofWriter.writeString(3,counterParty);
+        pofWriter.writeString(1, portfolio);
+        pofWriter.writeString(2, instrumentType);
+        pofWriter.writeLong(4, notional);
     }
 }
