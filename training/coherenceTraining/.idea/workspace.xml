@@ -16,7 +16,9 @@
     <file path="/Trade.java" changelist="adf638d7-84de-4cf7-9c2b-1525ba8b0336" time="1388909694604" ignored="false" />
     <file path="/trades.csv" changelist="adf638d7-84de-4cf7-9c2b-1525ba8b0336" time="1388904011787" ignored="false" />
     <file path="/CustomFilter.java" changelist="adf638d7-84de-4cf7-9c2b-1525ba8b0336" time="1388905084627" ignored="false" />
-    <file path="/AggregateLogicOnGridTest.java" changelist="adf638d7-84de-4cf7-9c2b-1525ba8b0336" time="1388909547927" ignored="false" />
+    <file path="/AggregateLogicOnGridTest.java" changelist="adf638d7-84de-4cf7-9c2b-1525ba8b0336" time="1388928930613" ignored="false" />
+    <file path="/DataLoader.java" changelist="adf638d7-84de-4cf7-9c2b-1525ba8b0336" time="1388911438245" ignored="false" />
+    <file path="/NotionalAggregator.java" changelist="adf638d7-84de-4cf7-9c2b-1525ba8b0336" time="1388925743049" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,18 +81,18 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="GridQueryTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/training-6-query/src/test/java/com/readOnly/GridQueryTest.java">
+        <entry file="file://$PROJECT_DIR$/training-6-query/src/test/java/com/query/GridQueryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="89" column="73" selection-start="2830" selection-end="2893" vertical-scroll-proportion="0.0">
+            <state line="82" column="0" selection-start="2508" selection-end="2631" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AggregateLogicOnGridTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/training-6-query/src/test/java/com/readOnly/AggregateLogicOnGridTest.java">
+      <file leaf-file-name="AggregateLogicOnGridTest.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/training-6-query/src/test/java/com/query/AggregateLogicOnGridTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="25" selection-start="947" selection-end="947" vertical-scroll-proportion="0.0">
+            <state line="52" column="30" selection-start="1756" selection-end="1756" vertical-scroll-proportion="0.53125">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -98,13 +100,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Trade.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/training-6-query/src/main/java/com/domain/Trade.java">
+      <file leaf-file-name="trades.csv" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/training-6-query/src/main/resources/trades.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="72" column="39" selection-start="1766" selection-end="1766" vertical-scroll-proportion="0.8308824">
+            <state line="2" column="13" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NotionalAggregator.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/training-6-query/src/main/java/com/aggregator/NotionalAggregator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="31" selection-start="476" selection-end="494" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pof-config.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/training-6-query/src/main/resources/pof-config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="57" selection-start="606" selection-end="606" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -119,22 +139,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/training-4-cache-topology/src/test/java/com/cache/topology/CacheTopologyTest.java" />
-        <option value="$PROJECT_DIR$/training-5-pof/src/test/java/com/domian/pof/PofSerializationTest.java" />
         <option value="$PROJECT_DIR$/training-5-pof/src/main/java/com/domain/pof/PortableTradeKey.java" />
         <option value="$PROJECT_DIR$/training-5-pof/src/main/resources/pof-config.xml" />
         <option value="$PROJECT_DIR$/training-5-pof/src/main/resources/coherence-cache-config.xml" />
         <option value="$PROJECT_DIR$/training-6-query/src/main/java/com/domain/PortableTrade.java" />
-        <option value="$PROJECT_DIR$/training-6-query/src/main/java/com/domain/DataLoader.java" />
-        <option value="$PROJECT_DIR$/training-6-query/src/main/resources/trades.csv" />
         <option value="$PROJECT_DIR$/training-6-query/src/test/java/com/CustomFilter.java" />
         <option value="$PROJECT_DIR$/training-6-query/src/main/java/com/filters/CustomFilter.java" />
-        <option value="$PROJECT_DIR$/training-6-query/src/main/resources/pof-config.xml" />
         <option value="$PROJECT_DIR$/training-6-query/src/test/java/com/DataGridQueryTest.java" />
         <option value="$PROJECT_DIR$/training-6-query/src/test/java/com/readOnly/DataGridQueryTest.java" />
         <option value="$PROJECT_DIR$/training-6-query/src/test/java/com/readOnly/GridQueryTest.java" />
-        <option value="$PROJECT_DIR$/training-6-query/src/test/java/com/readOnly/AggregateLogicOnGridTest.java" />
         <option value="$PROJECT_DIR$/training-6-query/src/main/java/com/domain/Trade.java" />
+        <option value="$PROJECT_DIR$/training-6-query/src/main/java/com/domain/DataLoader.java" />
+        <option value="$PROJECT_DIR$/training-6-query/src/main/java/com/aggregator/NotionalAggregator.java" />
+        <option value="$PROJECT_DIR$/training-6-query/src/main/resources/pof-config.xml" />
+        <option value="$PROJECT_DIR$/training-6-query/src/main/resources/trades.csv" />
+        <option value="$PROJECT_DIR$/training-6-query/src/test/java/com/readOnly/AggregateLogicOnGridTest.java" />
+        <option value="$PROJECT_DIR$/training-6-query/src/test/java/com/query/AggregateLogicOnGridTest.java" />
       </list>
     </option>
   </component>
@@ -202,58 +222,6 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="readOnly" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="coherenceTraining" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="training-6-query" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="coherenceTraining" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="training-6-query" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -300,42 +268,13 @@
     </key>
   </component>
   <component name="RunManager" selected="TestNG.AggregateLogicOnGridTest">
-    <configuration default="false" name="PofSerializationTest" type="TestNG" factoryName="TestNG" temporary="true">
-      <module name="training-5-pof" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="com.domian.pof" />
-      <option name="MAIN_CLASS_NAME" value="com.domian.pof.PofSerializationTest" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
     <configuration default="false" name="GridQueryTest" type="TestNG" factoryName="TestNG" temporary="true">
       <module name="training-6-query" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="com" />
-      <option name="MAIN_CLASS_NAME" value="com.readOnly.GridQueryTest" />
+      <option name="MAIN_CLASS_NAME" value="com.query.GridQueryTest" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -370,7 +309,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="com" />
-      <option name="MAIN_CLASS_NAME" value="com.readOnly.GridQueryTest" />
+      <option name="MAIN_CLASS_NAME" value="com.query.GridQueryTest" />
       <option name="METHOD_NAME" value="shouldQueryUsingEqualsFilterWithPof" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
@@ -399,7 +338,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="com" />
-      <option name="MAIN_CLASS_NAME" value="com.readOnly.GridQueryTest" />
+      <option name="MAIN_CLASS_NAME" value="com.query.GridQueryTest" />
       <option name="METHOD_NAME" value="shouldQueryUsingEqualsFilter" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
@@ -434,7 +373,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="com.readOnly" />
-      <option name="MAIN_CLASS_NAME" value="com.readOnly.AggregateLogicOnGridTest" />
+      <option name="MAIN_CLASS_NAME" value="com.query.AggregateLogicOnGridTest" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -455,6 +394,39 @@
       <listeners />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="AggregateLogicOnGridTest.shouldGetHighestTradeId" type="TestNG" factoryName="TestNG" temporary="true">
+      <module name="training-6-query" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="com.readOnly" />
+      <option name="MAIN_CLASS_NAME" value="com.query.AggregateLogicOnGridTest" />
+      <option name="METHOD_NAME" value="shouldGetHighestTradeId" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="62707" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <ConfigurationWrapper RunnerId="Debug" />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -580,19 +552,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="TestNG.PofSerializationTest" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.GridQueryTest" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.GridQueryTest.shouldQueryUsingEqualsFilterWithPof" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.GridQueryTest.shouldQueryUsingEqualsFilter" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.AggregateLogicOnGridTest" />
+      <item index="0" class="java.lang.String" itemvalue="TestNG.GridQueryTest" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.GridQueryTest.shouldQueryUsingEqualsFilterWithPof" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.GridQueryTest.shouldQueryUsingEqualsFilter" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.AggregateLogicOnGridTest" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.AggregateLogicOnGridTest.shouldGetHighestTradeId" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="TestNG.AggregateLogicOnGridTest" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.GridQueryTest" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.GridQueryTest.shouldQueryUsingEqualsFilter" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.GridQueryTest.shouldQueryUsingEqualsFilterWithPof" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.PofSerializationTest" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.AggregateLogicOnGridTest.shouldGetHighestTradeId" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.GridQueryTest" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.GridQueryTest.shouldQueryUsingEqualsFilter" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.GridQueryTest.shouldQueryUsingEqualsFilterWithPof" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -632,7 +604,7 @@
     <frame x="10" y="0" width="1346" height="728" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32982457" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -645,7 +617,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2538941" sideWeight="0.25789472" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18302181" sideWeight="0.67017543" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.74210525" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" x="110" y="100" width="1146" height="528" />
@@ -729,13 +701,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/training-3-sampleApp/src/test/java/DataLoaderTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="36" selection-start="465" selection-end="465" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/training-6-query/training-6-query.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -756,16 +721,6 @@
     <entry file="jar://$PROJECT_DIR$/training-1-basicGetAndPut/lib/coherence.jar!/com/tangosol/util/extractor/ReflectionExtractor.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="11" selection-start="521" selection-end="521" vertical-scroll-proportion="0.33596838" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/training-6-query/src/main/java/com/domain/DataLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="39" selection-start="332" selection-end="332" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#433#450#0" expanded="true" />
-          </folding>
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/training-4-cache-topology/src/test/java/com/cache/topology/CacheTopologyTest.java">
@@ -789,33 +744,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/training-6-query/src/main/resources/trades.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="11" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/training-6-query/src/main/java/com/filters/CustomFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="25" selection-start="242" selection-end="254" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/training-6-query/src/main/resources/pof-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="48" selection-start="457" selection-end="457" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/training-6-query/src/test/java/com/readOnly/GridQueryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="89" column="73" selection-start="2830" selection-end="2893" vertical-scroll-proportion="0.0">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -826,18 +760,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/training-6-query/src/test/java/com/readOnly/AggregateLogicOnGridTest.java">
+    <entry file="file://$PROJECT_DIR$/training-6-query/src/main/java/com/domain/Trade.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="25" selection-start="947" selection-end="947" vertical-scroll-proportion="0.0">
+        <state line="54" column="44" selection-start="1125" selection-end="1125" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/training-6-query/src/main/java/com/domain/Trade.java">
+    <entry file="file://$PROJECT_DIR$/training-6-query/src/main/java/com/domain/DataLoader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="39" selection-start="1766" selection-end="1766" vertical-scroll-proportion="0.8308824">
+        <state line="33" column="38" selection-start="1019" selection-end="1019" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#433#450#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/training-6-query/src/main/java/com/aggregator/NotionalAggregator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="31" selection-start="476" selection-end="494" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/training-6-query/src/main/resources/pof-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="57" selection-start="606" selection-end="606" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/training-6-query/src/main/resources/trades.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="13" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/training-6-query/src/test/java/com/query/GridQueryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="82" column="0" selection-start="2508" selection-end="2631" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/training-6-query/src/test/java/com/query/AggregateLogicOnGridTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="30" selection-start="1756" selection-end="1756" vertical-scroll-proportion="0.53125">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

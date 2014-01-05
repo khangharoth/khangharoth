@@ -1,4 +1,4 @@
-package com.readOnly;
+package com.query;
 
 import com.domain.DataLoader;
 import com.domain.Trade;

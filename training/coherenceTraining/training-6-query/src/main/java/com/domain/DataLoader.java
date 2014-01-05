@@ -30,6 +30,7 @@ public class DataLoader {
             Trade trade = new Trade(key);
             trade.setCounterParty(str[2]);
             trade.setInstrumentType(str[3]);
+            trade.setNotional(Long.valueOf(str[4]));
 
             trades.put(key, trade);
 
