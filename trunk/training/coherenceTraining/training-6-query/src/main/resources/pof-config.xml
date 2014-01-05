@@ -16,5 +16,10 @@
             <type-id>1003</type-id>
             <class-name>com.filters.CustomFilter</class-name>
         </user-type>
+
+        <user-type>
+            <type-id>1004</type-id>
+            <class-name>com.aggregator.NotionalAggregator</class-name>
+        </user-type>
     </user-type-list>
 </pof-cofig>

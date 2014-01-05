@@ -52,6 +52,10 @@ public class Trade implements PortableObject {
         this.portfolio = portfolio;
     }
 
+    public void setNotional(Long notional) {
+        this.notional = notional;
+    }
+
     public Long getNotional() {
         return notional;
     }
