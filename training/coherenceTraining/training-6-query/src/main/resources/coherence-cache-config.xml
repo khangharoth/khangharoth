@@ -54,6 +54,15 @@
             <autostart>true</autostart>
         </replicated-scheme>
 
+        <invocation-scheme>
+
+            <scheme-name>InvocationService</scheme-name>
+            <service-name>InvocationService</service-name>
+            <thread-count>5</thread-count>
+            <autostart>true</autostart>
+
+        </invocation-scheme>
+
         <near-scheme>
             <scheme-name>near-cache</scheme-name>
             <front-scheme>

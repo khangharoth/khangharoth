@@ -12,9 +12,9 @@ public class Get {
     public static void main(String[] args) {
         Config cfg = new Config();
         HazelcastInstance instance = Hazelcast.newHazelcastInstance(cfg);
-        Map<Integer, String> mapCustomers = instance.getMap("customers");
+        Map mapCustomers = instance.getMap("TradeCache");
 
 
-        System.out.println("Customer with key 1: " + mapCustomers.get(1));
+        System.out.println("Customer with key A: " + mapCustomers.get("A"));
     }
 }
