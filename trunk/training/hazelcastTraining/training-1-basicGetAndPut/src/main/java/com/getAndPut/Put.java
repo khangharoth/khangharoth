@@ -10,11 +10,9 @@ public class Put {
     public static void main(String[] args) {
         Config cfg = new Config();
         HazelcastInstance instance = Hazelcast.newHazelcastInstance(cfg);
-        Map<Integer, String> mapCustomers = instance.getMap("customers");
-        mapCustomers.put(1, "Joe");
-        mapCustomers.put(2, "Ali");
-        mapCustomers.put(3, "Avi");
+        Map mapCustomers = instance.getMap("TradeCache");
+        mapCustomers.put("A", "1");
 
-        System.out.println("Customer with key 1: "+ mapCustomers.get(1));
+        System.out.println("Done");
     }
 }
