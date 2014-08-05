@@ -1,3 +1,0 @@
-1) In-Memory Data Grids over clustered caches:  ex Memcached,
-    a) is the ability to find data not just by the primary key,
-          but also by executing queries and aggregations against the cache.
