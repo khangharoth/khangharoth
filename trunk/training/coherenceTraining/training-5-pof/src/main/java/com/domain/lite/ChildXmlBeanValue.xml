@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<xml-bean>
+  <name>examplechildxmlbeanvalue</name>
+  <property>
+    <name>Id</name>
+    <xml-name>id</xml-name>
+  </property>
+  <property>
+    <name>Field</name>
+    <xml-name>field</xml-name>
+  </property>
+</xml-bean>

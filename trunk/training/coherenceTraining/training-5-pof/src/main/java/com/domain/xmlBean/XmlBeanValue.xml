@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<xml-bean>
+  <name>examplexmlbeanvalue</name>
+  <property>
+    <name>Id</name>
+    <xml-name>id</xml-name>
+  </property>
+  <property>
+    <name>Date</name>
+    <xml-name>date</xml-name>
+  </property>
+  <property>
+    <name>Long</name>
+    <xml-name>long</xml-name>
+  </property>
+  <property>
+    <name>Integer</name>
+    <xml-name>integer</xml-name>
+  </property>
+  <property>
+    <name>Float</name>
+    <xml-name>float</xml-name>
+  </property>
+  <property>
+    <name>Double</name>
+    <xml-name>double</xml-name>
+  </property>
+  <property>
+    <name>Child</name>
+    <xml-name>child</xml-name>
+  </property>
+</xml-bean>

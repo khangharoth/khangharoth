@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/training-1-basicGetAndPut/training-1-basicGetAndPut.iml" filepath="$PROJECT_DIR$/training-1-basicGetAndPut/training-1-basicGetAndPut.iml" />
       <module fileurl="file://$PROJECT_DIR$/training-2-clusterSetup/training-2-clusterSetup.iml" filepath="$PROJECT_DIR$/training-2-clusterSetup/training-2-clusterSetup.iml" />
+      <module fileurl="file://$PROJECT_DIR$/training-3-sampleApp/training-3-sampleApp.iml" filepath="$PROJECT_DIR$/training-3-sampleApp/training-3-sampleApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/training-4-cache-topology/training-4-cache-topology.iml" filepath="$PROJECT_DIR$/training-4-cache-topology/training-4-cache-topology.iml" />
     </modules>
   </component>
 </project>
