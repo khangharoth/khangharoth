@@ -1,9 +1,8 @@
 import com.MongoDBClient;
 import com.mongodb.*;
-
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
+import org.testng.Assert;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -13,7 +12,7 @@ public class QueryTest {
 
     private static final MongoClient mongoDBClient = MongoDBClient.getConnection();
 
-    @Before
+    @BeforeClass
     public void init() throws Exception {
         DBCollection collection = mongoDBClient.getDB("test").getCollection("tradeCache");
 
