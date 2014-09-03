@@ -1,6 +1,5 @@
 import com.mongodb.BasicDBObject;
 
-import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -12,7 +11,7 @@ public class TradeLoader {
     private static final List<BasicDBObject> trades = new ArrayList<BasicDBObject>();
 
     private static BasicDBObject newTrade(Long tradeId, Integer version, String instrumentType, String sourceBook,
-                                          BigDecimal amount, String counterParty) {
+                                          Long amount, String counterParty) {
         BasicDBObject basicDBObject = new BasicDBObject("tradeId", tradeId);
         basicDBObject.append("version", version);
         basicDBObject.append("instrumentType", instrumentType);
@@ -23,23 +22,23 @@ public class TradeLoader {
     }
 
     private static void addTrade(Long tradeId, Integer version, String instrumentType, String sourceBook,
-                                 BigDecimal amount, String counterParty) {
+                                 Long amount, String counterParty) {
         trades.add(newTrade(tradeId, version, instrumentType, sourceBook, amount, counterParty));
     }
 
     private static void load() {
-        addTrade(1L, 1, "IRS", "SB-1", new BigDecimal(11000), "CP-1");
-        addTrade(2L, 1, "IRS", "SB-1", new BigDecimal(11000), "CP-1");
-        addTrade(3L, 1, "IRS", "SB-2", new BigDecimal(11000), "CP-1");
-        addTrade(4L, 1, "IRS", "SB-1", new BigDecimal(11000), "CP-1");
-        addTrade(5L, 1, "IRS", "SB-3", new BigDecimal(11000), "CP-1");
-        addTrade(6L, 1, "IRS", "SB-3", new BigDecimal(11000), "CP-1");
-        addTrade(7L, 1, "IRS", "SB-1", new BigDecimal(11000), "CP-1");
-        addTrade(8L, 1, "IRS", "SB-3", new BigDecimal(11000), "CP-1");
-        addTrade(9L, 1, "IRS", "SB-2", new BigDecimal(11000), "CP-1");
-        addTrade(10L, 1, "IRS", "SB-2", new BigDecimal(11000), "CP-1");
-        addTrade(12L, 1, "IRS", "SB-2", new BigDecimal(11000), "CP-1");
-        addTrade(13L, 1, "IRS", "SB-1", new BigDecimal(11000), "CP-1");
+        addTrade(1L, 1, "IRS", "SB-1", 11000L, "CP-1");
+        addTrade(2L, 1, "IRS", "SB-1", 11000L, "CP-1");
+        addTrade(3L, 1, "IRS", "SB-2", 11000L, "CP-1");
+        addTrade(4L, 1, "IRS", "SB-1", 11000L, "CP-1");
+        addTrade(5L, 1, "IRS", "SB-3", 11000L, "CP-1");
+        addTrade(6L, 1, "IRS", "SB-3", 11000L, "CP-1");
+        addTrade(7L, 1, "IRS", "SB-1", 11000L, "CP-1");
+        addTrade(8L, 1, "IRS", "SB-3", 11000L, "CP-1");
+        addTrade(9L, 1, "IRS", "SB-2", 11000L, "CP-1");
+        addTrade(10L, 1, "IRS", "SB-2", 11000L, "CP-1");
+        addTrade(12L, 1, "IRS", "SB-2", 11000L, "CP-1");
+        addTrade(13L, 1, "IRS", "SB-1", 11000L, "CP-1");
     }
 
     public static List<BasicDBObject> trades() {
