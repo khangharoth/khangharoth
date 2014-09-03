@@ -5,6 +5,9 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
+import java.util.ArrayList;
+import java.util.List;
+
 
 public class QueryTest {
 
@@ -14,16 +17,16 @@ public class QueryTest {
     public void init() throws Exception {
         DBCollection collection = mongoDBClient.getDB("test").getCollection("tradeCache");
 
-        loadTade(collection, 1L, 0);
-        loadTade(collection, 2L, 0);
-        loadTade(collection, 3L, 0);
-        loadTade(collection, 4L, 0);
-        loadTade(collection, 5L, 5);
-        loadTade(collection, 6L, 0);
-        loadTade(collection, 7L, 0);
-        loadTade(collection, 8L, 2);
-        loadTade(collection, 9L, 0);
-        loadTade(collection, 10L, 0);
+        loadTrade(collection, 1L, 0);
+        loadTrade(collection, 2L, 0);
+        loadTrade(collection, 3L, 0);
+        loadTrade(collection, 4L, 0);
+        loadTrade(collection, 5L, 5);
+        loadTrade(collection, 6L, 0);
+        loadTrade(collection, 7L, 0);
+        loadTrade(collection, 8L, 2);
+        loadTrade(collection, 9L, 0);
+        loadTrade(collection, 10L, 0);
 
     }
 
@@ -33,7 +36,7 @@ public class QueryTest {
         return basicDBObject;
     }
 
-    private void loadTade(DBCollection cache, Long tradeId, Integer version) {
+    private void loadTrade(DBCollection cache, Long tradeId, Integer version) {
         cache.save(newTrade(tradeId, version));
     }
 
@@ -81,5 +84,35 @@ public class QueryTest {
         BasicDBObject query = new BasicDBObject("tradeId", new BasicDBObject("$lt", 7).append("k", new BasicDBObject("$gt", 3)));
         Assert.assertEquals(countResult(collection.find(query)), 3);
     }
+
+
+    @Test
+    public void shouldQueryIn() {
+        DBCollection collection = mongoDBClient.getDB("test").getCollection("tradeCache");
+        BasicDBObject inQuery = new BasicDBObject();
+        List<Long> list = new ArrayList<Long>();
+        list.add(2L);
+        list.add(4L);
+        list.add(5L);
+        inQuery.put("tradeId", new BasicDBObject("$in", list));
+        Assert.assertEquals(countResult(collection.find(inQuery)), 3);
+    }
+
+    @Test
+    public void shouldQueryLogicalAnd() {
+
+        DBCollection collection = mongoDBClient.getDB("test").getCollection("tradeCache");
+        BasicDBObject andQuery = new BasicDBObject();
+
+        List<BasicDBObject> andConstraints = new ArrayList<BasicDBObject>();
+        andConstraints.add(new BasicDBObject("tradeId", 8L));
+        andConstraints.add(new BasicDBObject("version", 2));
+
+        andQuery.put("$and", andConstraints);
+
+        Assert.assertEquals(countResult(collection.find(andQuery)), 1);
+
+    }
+
 
 }
