@@ -14,8 +14,8 @@ public class QueryTest {
 
     @BeforeClass
     public void init() throws Exception {
-        DBCollection collection = mongoDBClient.getDB("test").getCollection("tradeCache");
-
+        DBCollection collection = getCollection();
+        collection.getDB().dropDatabase();
         loadTrade(collection, 1L, 0);
         loadTrade(collection, 2L, 0);
         loadTrade(collection, 3L, 0);
@@ -36,12 +36,13 @@ public class QueryTest {
     }
 
     private void loadTrade(DBCollection cache, Long tradeId, Integer version) {
-        cache.save(newTrade(tradeId, version));
+        cache.insert(newTrade(tradeId, version));
     }
 
     private int countResult(DBCursor cursor) {
         int i = 0;
         while (cursor.hasNext()) {
+            cursor.next();
             i++;
         }
 
@@ -54,21 +55,25 @@ public class QueryTest {
 
     @Test
     public void shouldGetFirstEntry() {
-        DBCollection collection = mongoDBClient.getDB("test").getCollection("tradeCache");
+        DBCollection collection = getCollection();
         DBObject dbObject = collection.findOne();
-        Assert.assertEquals(dbObject.toMap().get("tradeId"), equals(1L));
-        Assert.assertEquals(dbObject.toMap().get("version"), equals(0));
+        Assert.assertEquals(dbObject.toMap().get("tradeId"), 1L);
+        Assert.assertEquals(dbObject.toMap().get("version"), 0);
+    }
+
+    private static DBCollection getCollection() {
+        return mongoDBClient.getDB("test").getCollection("tradeCache");
     }
 
     @Test
     public void shouldGetAllEntry() {
-        DBCollection collection = mongoDBClient.getDB("test").getCollection("tradeCache");
+        DBCollection collection = getCollection();
         Assert.assertEquals(countResult(collection.find()), 10);
     }
 
     @Test
     public void shouldGetTradeWithVersion5() {
-        DBCollection collection = mongoDBClient.getDB("test").getCollection("tradeCache");
+        DBCollection collection = getCollection();
         BasicDBObject query = new BasicDBObject("version", 5);
         DBCursor cursor = collection.find(query);
 
@@ -79,15 +84,15 @@ public class QueryTest {
 
     @Test
     public void shouldQueryLessThanGreaterThan() {
-        DBCollection collection = mongoDBClient.getDB("test").getCollection("tradeCache");
-        BasicDBObject query = new BasicDBObject("tradeId", new BasicDBObject("$lt", 7).append("k", new BasicDBObject("$gt", 3)));
+        DBCollection collection = getCollection();
+        DBObject query = QueryBuilder.start("tradeId").greaterThan(3L).lessThan(7l).get();
         Assert.assertEquals(countResult(collection.find(query)), 3);
     }
 
 
     @Test
     public void shouldQueryIn() {
-        DBCollection collection = mongoDBClient.getDB("test").getCollection("tradeCache");
+        DBCollection collection = getCollection();
         BasicDBObject inQuery = new BasicDBObject();
         List<Long> list = new ArrayList<Long>();
         list.add(2L);
@@ -100,7 +105,7 @@ public class QueryTest {
     @Test
     public void shouldQueryLogicalAnd() {
 
-        DBCollection collection = mongoDBClient.getDB("test").getCollection("tradeCache");
+        DBCollection collection = getCollection();
         BasicDBObject andQuery = new BasicDBObject();
 
         List<BasicDBObject> andConstraints = new ArrayList<BasicDBObject>();

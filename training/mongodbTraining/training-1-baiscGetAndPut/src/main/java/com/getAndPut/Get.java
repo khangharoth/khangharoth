@@ -13,7 +13,7 @@ public class Get {
     public static void main(String[] args) {
         DBCollection coll = MongoDBClient.getDB().getCollection("TradeCache");
 
-        BasicDBObject query = new BasicDBObject("A", 1);
+        BasicDBObject query = new BasicDBObject("A", "1");
 
         DBCursor cursor = coll.find(query);
 
