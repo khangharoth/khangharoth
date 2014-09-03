@@ -13,6 +13,8 @@ public class MapReduceTest {
     @BeforeClass
     public void init() {
         DBCollection collection = mongoDBClient.getDB("test").getCollection("tradeCache");
+        //clean db
+        collection.getDB().dropDatabase();
         for (BasicDBObject basicDBObject : TradeLoader.trades()) {
             collection.insert(basicDBObject);
         }
