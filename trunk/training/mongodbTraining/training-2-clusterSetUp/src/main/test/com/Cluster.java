@@ -1,18 +1,17 @@
 package com;
 
 import com.mongodb.*;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
 
-import org.junit.Before;
-import org.junit.Test;
 
-
-public final class Cluster {
+public class Cluster {
 
     private static final int[] _shardPorts = {27018, 27019};
 
     private static final MongoClient mongoDBClient = MongoDBClient.getConnection();
 
-    @Before
+    @BeforeClass
     public void setupCluster() throws Exception {
 
         // Add the shards
