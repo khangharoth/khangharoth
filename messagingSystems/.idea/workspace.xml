@@ -1,0 +1,1065 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="63a63cd6-627d-4ca1-be3e-3d62c031c56a" name="Default" comment="First checkin of messaging system poc">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/runner/data/kafka-logs/.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/activeMq" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/config" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/kafka/consumer" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/runner/data" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/installs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/libs/jopt-simple-3.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/kafka/jopt-simple-3.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/libs/kafka-clients-0.8.2.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/kafka/kafka-clients-0.8.2.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/runner/data/kafka-logs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/kafka" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/kafka" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/libs/kafka_2.10-0.8.2.0-javadoc.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/kafka/kafka_2.10-0.8.2.0-javadoc.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/libs/kafka_2.10-0.8.2.0-scaladoc.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/kafka/kafka_2.10-0.8.2.0-scaladoc.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/libs/kafka_2.10-0.8.2.0-sources.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/kafka/kafka_2.10-0.8.2.0-sources.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/libs/kafka_2.10-0.8.2.0-test.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/kafka/kafka_2.10-0.8.2.0-test.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/libs/kafka_2.10-0.8.2.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/kafka/kafka_2.10-0.8.2.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/libs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/runner/data/zookeeper/version-2/log.1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/libs/log4j-1.2.16.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/kafka/log4j-1.2.16.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/runner/logs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/libs/lz4-1.2.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/kafka/lz4-1.2.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/message" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/libs/metrics-core-2.2.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/kafka/metrics-core-2.2.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/runner/data/kafka-logs/page_visits-0" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/kafka/producer" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/runner" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/libs/scala-library-2.10.4.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/kafka/scala-library-2.10.4.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/libs/slf4j-api-1.7.6.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/kafka/slf4j-api-1.7.6.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/libs/slf4j-log4j12-1.6.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/kafka/slf4j-log4j12-1.6.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/libs/snappy-java-1.1.1.6.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/kafka/snappy-java-1.1.1.6.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/runner/data/zookeeper/version-2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/bin/windows" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/libs/zkclient-0.3.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/kafka/zkclient-0.3.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/libs/zookeeper-3.4.6.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/kafka/zookeeper-3.4.6.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/runner/data/zookeeper" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/runner/data/kafka-logs/page_visits-0/00000000000000000000.index" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/runner/data/kafka-logs/page_visits-0/00000000000000000000.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/kafka/consumer/ConsumerWrapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/kafka/consumer/KafkaConstants.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/NOTICE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/kafka/producer/SimplePartitioner.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/kafka/consumer/Start.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/kafka/producer/TestProducer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/config/consumer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/runner/logs/controller.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/bin/windows/kafka-console-consumer.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/bin/kafka-console-consumer.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/bin/windows/kafka-console-producer.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/bin/kafka-console-producer.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/bin/windows/kafka-consumer-offset-checker.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/bin/kafka-consumer-offset-checker.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/bin/windows/kafka-consumer-perf-test.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/bin/kafka-consumer-perf-test.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/bin/windows/kafka-mirror-maker.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/bin/kafka-mirror-maker.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/bin/windows/kafka-preferred-replica-election.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/bin/kafka-preferred-replica-election.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/bin/windows/kafka-producer-perf-test.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/bin/kafka-producer-perf-test.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/bin/windows/kafka-reassign-partitions.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/bin/kafka-reassign-partitions.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/bin/windows/kafka-replay-log-producer.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/bin/kafka-replay-log-producer.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/bin/windows/kafka-replica-verification.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/bin/kafka-replica-verification.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/runner/logs/kafka-request.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/bin/windows/kafka-run-class.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/bin/kafka-run-class.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/bin/windows/kafka-server-start.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/bin/kafka-server-start.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/bin/windows/kafka-server-stop.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/bin/kafka-server-stop.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/bin/windows/kafka-simple-consumer-shell.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/bin/kafka-simple-consumer-shell.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/bin/windows/kafka-topics.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/bin/kafka-topics.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/runner/kafka.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/runner/logs/log-cleaner.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/config/log4j.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/messagingSystems.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/config/producer.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/runner/data/kafka-logs/recovery-point-offset-checkpoint" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/runner/data/kafka-logs/replication-offset-checkpoint" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/runner/logs/server.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/config/server.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/runner/logs/state-change.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/config/test-log4j.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/config/tools-log4j.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/runner/topicCreator.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/bin/windows/zookeeper-server-start.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/bin/zookeeper-server-start.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/bin/windows/zookeeper-server-stop.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/bin/zookeeper-server-stop.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/bin/windows/zookeeper-shell.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/bin/zookeeper-shell.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/runner/zookeeper.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/config/zookeeper.properties" />
+    </list>
+    <ignored path="messagingSystems.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="false" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DebuggerManager">
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints>
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/kafka/producer/TestProducer.java" line="30" class="com.kafka.producer.TestProducer" package="com.kafka.producer">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/kafka/consumer/Start.java" line="26" class="com.kafka.consumer.Start" package="com.kafka.consumer">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
+    <breakpoint_rules />
+    <ui_properties />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="messagingSystems" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="Start.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/kafka/consumer/Start.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="33" column="48" selection-start="1122" selection-end="1122" vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="867">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConsumerWrapper.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/kafka/consumer/ConsumerWrapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="38" column="41" selection-start="1737" selection-end="1737" vertical-scroll-proportion="0.0" vertical-offset="262" max-vertical-offset="901">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1425#1472#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KafkaConstants.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/kafka/consumer/KafkaConstants.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="27" selection-start="42" selection-end="56" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="306">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/kafka/SimplePartitioner.java" />
+        <option value="$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/runner/zookeeper.bat" />
+        <option value="$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/runner/kafka.bat" />
+        <option value="$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/config/zookeeper.properties" />
+        <option value="$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/config/server.properties" />
+        <option value="$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/runner/topicCreator.bat" />
+        <option value="$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/runner/logs/controller.log" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kafka/TestProducer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kafka/producer/TestProducer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kafka/consumer/LeaderFinder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kafka/consumer/KafkaConstants.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kafka/consumer/Helper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kafka/consumer/SimpleExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kafka/consumer/ConsumerWrapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kafka/consumer/Start.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages ProjectPane="false" />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="messagingSystems" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="messagingSystems" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="messagingSystems" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="messagingSystems" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="messagingSystems" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="installs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kafka_2.10-0.8.2.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="FullScreen" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/kafka/slf4j-api-1.7.6.jar!/" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="LayoutCode.rearrangeEntriesJava" value="false" />
+    <property name="extract.method.default.visibility" value="private" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\work\workspace\messagingSystems\lib\kafka" />
+      <recent name="C:\work\workspace\messagingSystems\installs" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Start">
+    <configuration default="false" name="zookeeper" type="BatchConfigurationType" factoryName="Batch" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="WORKING_DIRECTORY" value="C:\work\workspace\messagingSystems\installs\kafka_2.10-0.8.2.0\runner" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <module name="messagingSystems" />
+      <option name="SCRIPT_NAME" value="zookeeper.bat" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="BatchRunner" />
+      <ConfigurationWrapper RunnerId="BatchRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="kafka" type="BatchConfigurationType" factoryName="Batch" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="WORKING_DIRECTORY" value="C:\work\workspace\messagingSystems\installs\kafka_2.10-0.8.2.0\runner" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <module name="messagingSystems" />
+      <option name="SCRIPT_NAME" value="kafka.bat" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="BatchRunner" />
+      <ConfigurationWrapper RunnerId="BatchRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Start" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kafka.consumer.Start" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="messagingSystems" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="topicCreator" type="BatchConfigurationType" factoryName="Batch" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="WORKING_DIRECTORY" value="C:\work\workspace\messagingSystems\installs\kafka_2.10-0.8.2.0\runner" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <module name="messagingSystems" />
+      <option name="SCRIPT_NAME" value="topicCreator.bat" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="BatchRunner" />
+      <ConfigurationWrapper RunnerId="BatchRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestProducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kafka.producer.TestProducer" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="messagingSystems" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin" singleton="true">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <module name="messagingSystems" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="BatchConfigurationType" factoryName="Batch">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <module name="messagingSystems" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Batch.zookeeper" />
+      <item index="1" class="java.lang.String" itemvalue="Batch.kafka" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Start" />
+      <item index="3" class="java.lang.String" itemvalue="Batch.topicCreator" />
+      <item index="4" class="java.lang.String" itemvalue="Application.TestProducer" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.Start" />
+        <item index="1" class="java.lang.String" itemvalue="Application.TestProducer" />
+        <item index="2" class="java.lang.String" itemvalue="Batch.topicCreator" />
+        <item index="3" class="java.lang.String" itemvalue="Batch.kafka" />
+        <item index="4" class="java.lang.String" itemvalue="Batch.zookeeper" />
+      </list>
+    </recent_temporary>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="true" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <configuration useDefault="false">C:\Users\kuldeep\AppData\Roaming\Subversion</configuration>
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="C:\work\workspace\messagingSystems" />
+          <option name="myCopyRoot" value="C:\work\workspace\messagingSystems" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="C:\work\workspace\messagingSystems\.idea" />
+          <option name="myCopyRoot" value="C:\work\workspace\messagingSystems\.idea" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="C:\work\workspace\messagingSystems" />
+          <option name="myCopyRoot" value="C:\work\workspace\messagingSystems" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="63a63cd6-627d-4ca1-be3e-3d62c031c56a" name="Default" comment="" />
+      <created>1425266566860</created>
+      <updated>1425266566860</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.9299674" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="SVN Properties" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899022" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38762215" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36319217" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899022" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899022" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22885196" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3355049" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38762215" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36319217" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899022" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22885196" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3355049" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USERS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+    <MESSAGE value="First checkin of messaging system poc" />
+    <option name="LAST_COMMIT_MESSAGE" value="First checkin of messaging system poc" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/bin/zookeeper-server-start.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="27" selection-start="816" selection-end="816" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="867">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/bin/windows/kafka-topics.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/bin/zookeeper-server-start.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="867">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/bin/zookeeper-server-start.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="53" selection-start="1028" selection-end="1028" vertical-scroll-proportion="0.0" vertical-offset="256" max-vertical-offset="867">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/bin/windows/zookeeper-shell.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="58" selection-start="492" selection-end="492" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/bin/kafka-run-class.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="151" column="115" selection-start="3845" selection-end="3845" vertical-scroll-proportion="0.49865952" vertical-offset="2381" max-vertical-offset="2754">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/bin/windows/zookeeper-server-start.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="118" selection-start="1105" selection-end="1105" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="544">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/bin/windows/kafka-topics.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="21" selection-start="873" selection-end="873" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/config/server.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="16" selection-start="2596" selection-end="2596" vertical-scroll-proportion="0.0" vertical-offset="1083" max-vertical-offset="2159">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/config/zookeeper.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="8" selection-start="8" selection-end="8" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/runner/logs/state-change.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/runner/logs/server.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/runner/logs/log-cleaner.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/runner/logs/kafka-request.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/runner/logs/controller.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="246">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/kafka/kafka_2.10-0.8.2.0.jar!/kafka/javaapi/consumer/SimpleConsumer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="11" selection-start="4913" selection-end="4913" vertical-scroll-proportion="0.8290909" vertical-offset="224" max-vertical-offset="799">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/kafka/kafka_2.10-0.8.2.0.jar!/kafka/javaapi/message/MessageSet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="22" selection-start="1320" selection-end="1320" vertical-scroll-proportion="0.18545455" vertical-offset="0" max-vertical-offset="550">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/kafka/kafka_2.10-0.8.2.0.jar!/kafka/javaapi/message/ByteBufferMessageSet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="70" selection-start="2532" selection-end="2532" vertical-scroll-proportion="0.18545455" vertical-offset="0" max-vertical-offset="663">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/runner/zookeeper.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="40" selection-start="75" selection-end="75" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="119">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/runner/kafka.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="38" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="119">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/installs/kafka_2.10-0.8.2.0/runner/topicCreator.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="45" selection-start="45" selection-end="45" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="382">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kafka/producer/TestProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="38" selection-start="377" selection-end="377" vertical-scroll-proportion="0.0" vertical-offset="143" max-vertical-offset="731">
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#716#732#0" expanded="true" />
+            <element signature="e#1114#1130#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kafka/producer/SimplePartitioner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="13" selection-start="119" selection-end="119" vertical-scroll-proportion="0.2225131" vertical-offset="0" max-vertical-offset="442">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/kafka/kafka_2.10-0.8.2.0.jar!/kafka/api/FetchRequestBuilder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="115" selection-start="5478" selection-end="5487" vertical-scroll-proportion="0.45818183" vertical-offset="377" max-vertical-offset="952">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/kafka/kafka_2.10-0.8.2.0.jar!/kafka/javaapi/FetchResponse.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="54" selection-start="2292" selection-end="2292" vertical-scroll-proportion="0.34" vertical-offset="0" max-vertical-offset="550">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kafka/consumer/KafkaConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="27" selection-start="42" selection-end="56" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kafka/consumer/ConsumerWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="41" selection-start="1737" selection-end="1737" vertical-scroll-proportion="0.0" vertical-offset="262" max-vertical-offset="901">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1425#1472#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kafka/consumer/Start.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="48" selection-start="1122" selection-end="1122" vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="867">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>groovy-2.1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7 (1)</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>messagingSystems</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7 (1)</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
+
